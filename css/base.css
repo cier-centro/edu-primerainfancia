@@ -1,7 +1,10 @@
+h2.title {
+    display: none;
+}
 /*slider*/
 .site-jornada-unica #primera_infancia_home_slider {
 	height: 300px;
-    overflow: hidden;
+  overflow: hidden;
 	border-bottom: solid 10px #ffffff;
 }
  .site-jornada-unica #primera_infancia_home_slider .views-slideshow-controls-top {
@@ -32,7 +35,7 @@
 		background: url("../images/slider-btn-next.png") no-repeat center center / contain;
 }
 .site-jornada-unica #primera_infancia_home_slider{
-    margin: -20px 0 10px 0;	
+    margin: -20px 0 10px 0;
 }
 .site-jornada-unica #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
 	z-index:100;
