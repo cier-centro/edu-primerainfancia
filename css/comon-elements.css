@@ -95,9 +95,10 @@
 /***MENÚ***/
 /*cuando todos los hijos del menú son iguales*/
 .site-primera-infancia .main-menu > .pane-content > ul > li{
-	width:16.5%;
+  width: 16.666%;
   display: inline-block;
-  margin:0px;
+  margin-right: -4px;
+  box-sizing: border-box;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:last-child{
 	border-right: none;
