@@ -1,0 +1,42 @@
+h2.title {
+    display: none;
+}
+/*slider*/
+.site-primera-infancia #primera_infancia_home_slider {
+	height: 300px;
+  overflow: hidden;
+	border-bottom: solid 10px #ffffff;
+}
+ .site-primera-infancia #primera_infancia_home_slider .views-slideshow-controls-top {
+    position: relative;
+	top: 100px;
+	width: 100%;
+    z-index: 10;
+	padding: 0 0%;
+}
+.site-primera-infancia #primera_infancia_home_slider  #views_slideshow_cycle_main_contenidos_inclusivos-panel_pane_4 {
+	position: relative;
+    top: -20px;
+}
+.site-primera-infancia #primera_infancia_home_slider .views-slideshow-controls-text-pause {
+		display: none;
+}
+.site-primera-infancia #primera_infancia_home_slider .views_slideshow_controls_text_next {
+		float: right;
+}
+.site-primera-infancia #primera_infancia_home_slider .views-slideshow-controls-text-previous a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("../img/slider-btn-back.png") no-repeat center center / contain;
+}
+.site-primera-infancia #primera_infancia_home_slider .views-slideshow-controls-text-next a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("../img/slider-btn-next.png") no-repeat center center / contain;
+}
+.site-primera-infancia #primera_infancia_home_slider{
+    margin: -20px 0 10px 0;
+}
+.site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
+	z-index:100;
+}
