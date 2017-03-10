@@ -116,13 +116,13 @@
 	background:url("../img/familias.png")#ffae55 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(4){
-	background:url("../img/maestrosymaestras.png") #ffae55 no-repeat center center!important;
-}
-.site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(4){
 	background:url("../img/secretariasdeeducacion.png") #ffae55 no-repeat center center!important;
 }
+.site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(5){
+	background:url("../img/maestrosymaestras.png") #ffae55 no-repeat center center!important;
+}
 .site-primera-infancia .main-menu > .pane-content > ul > li:last-child{
-  background:url("../img/secretariasdeeducacion.png") #ffae55 no-repeat center center!important;
+  background:url("../img/comunidades.png") #ffae55 no-repeat center center!important;
 	/*width:16%;*/
 }
 .site-primera-infancia #microsite_panel .main-menu, .site-primera-infancia #microsite_panel .main-menu > div .menu{
