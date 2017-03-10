@@ -79,7 +79,6 @@
 .site-primera-infancia .content .aliados10-section-content ul li{
     text-indent: -10px;
     /*cambiar el valor a positivo según la necesidad*/
-    height: 50px;
 }
 .site-primera-infancia .content .aliados10-section-content ul li:before {
     content: "• ";
@@ -100,6 +99,8 @@
   display: inline-block;
   margin-right: -4px;
   box-sizing: border-box;
+  height: 50px;
+  background:#ffae55 !important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:last-child{
 	border-right: none;
@@ -135,7 +136,7 @@
   padding:5px!important;
   text-transform: uppercase;
 }
-.site-primera-infancia .main-menu .pane-content ul li a{background:#ffae55 !important;}
+/*.site-primera-infancia .main-menu .pane-content ul li a{background:#ffae55 !important;}*/
 .site-primera-infancia .main-menu .pane-content ul li a:hover{
   color: #a4579d !important;
   background: #f4bd54 !important;
@@ -483,16 +484,17 @@
     border: 1px solid #c00025;
     white-space: pre-line;
 }
-
 .site-primera-infancia .content .btn-page-link:hover {
     background: #122747;
 }
-
 .site-primera-infancia .content .btn-page-link label {
     white-space: pre-line;
     color: white;
 }
-
+.site-primera-infancia .section_content .breadcrumb{
+  margin-bottom: 0px;
+  height: 40px;
+}
 @media (min-width: 768px){
     .site-primera-infancia .content .modal-dialog {
         width: 600px;
