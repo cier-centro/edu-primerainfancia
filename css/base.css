@@ -40,3 +40,6 @@ h2.title {
 .site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
 	z-index:100;
 }
+.main-menu li a{
+  padding:5px!important;
+}
