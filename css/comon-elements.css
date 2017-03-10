@@ -107,26 +107,26 @@
 }
 /*cuando el menú tiene difirentes tamaños para cada hijo o imágenes*/
 .site-primera-infancia .main-menu > .pane-content > ul > li:first-child{
-	background:url("../img/inicio.png") no-repeat center center;
+	background:url("../img/inicio.png") #ffae55 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(2){
-	background:url("../img/ninosyninas.png") no-repeat center center;
+	background:url("../img/ninosyninas.png") #ffae55 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(3){
-	background:url("../img/familias.png") no-repeat center center;
+	background:url("../img/familias.png")#ffae55 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(4){
-	background:url("../img/maestrosymaestras.png") no-repeat center center;
+	background:url("../img/maestrosymaestras.png") #ffae55 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(4){
-	background:url("../img/secretariasdeeducacion.png") no-repeat center center;
+	background:url("../img/secretariasdeeducacion.png") #ffae55 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:last-child{
-  background:url("../img/secretariasdeeducacion.png") no-repeat center center;
+  background:url("../img/secretariasdeeducacion.png") #ffae55 no-repeat center center!important;
 	/*width:16%;*/
 }
 .site-primera-infancia #microsite_panel .main-menu, .site-primera-infancia #microsite_panel .main-menu > div .menu{
-	background-color: #a4579d !important;
+	/*background-color: #a4579d !important;*/
 	border-bottom: none;
   padding: 0;
 }
