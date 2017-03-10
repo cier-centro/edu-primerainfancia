@@ -79,6 +79,7 @@
 .site-primera-infancia .content .aliados10-section-content ul li{
     text-indent: -10px;
     /*cambiar el valor a positivo según la necesidad*/
+    height: 50px;
 }
 .site-primera-infancia .content .aliados10-section-content ul li:before {
     content: "• ";
@@ -127,10 +128,12 @@
   padding: 0;
 }
 .site-primera-infancia .main-menu li a {
-	font-size: 17px !important;
+	font-size: 12px !important;
   font-weight: 500 !important;
 	color: #605177 !important;
 	border: none !important;
+  padding:5px!important;
+  text-transform: uppercase;
 }
 .site-primera-infancia .main-menu .pane-content ul li a{background:#ffae55 !important;}
 .site-primera-infancia .main-menu .pane-content ul li a:hover{
