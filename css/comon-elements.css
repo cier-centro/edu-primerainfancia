@@ -99,7 +99,7 @@
   display: inline-block;
   margin-right: -4px;
   box-sizing: border-box;
-  height: 50px;
+  height: 75px;
   background:#ffae55 !important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:last-child{
@@ -135,6 +135,7 @@
 	border: none !important;
   padding: 5px 0px!important;
   text-transform: uppercase;
+  height: 75px;
 }
 /*.site-primera-infancia .main-menu .pane-content ul li a{background:#ffae55 !important;}*/
 .site-primera-infancia .main-menu .pane-content ul li a:hover{
