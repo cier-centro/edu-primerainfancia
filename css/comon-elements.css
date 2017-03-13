@@ -140,10 +140,10 @@
   height: 75px;
 }
 /*.site-primera-infancia .main-menu .pane-content ul li a{background:#ffae55 !important;}*/
+.site-primera-infancia .main-menu .pane-content ul li a:hover{text-decoration: none;}
 .site-primera-infancia .main-menu .pane-content ul li:hover{
   color: #ffa543 !important;
   background: #79649b !important;
-  text-decoration: none;
 }
 .site-primera-infancia .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
 .site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
