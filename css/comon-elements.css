@@ -143,7 +143,7 @@
 .site-primera-infancia .main-menu .pane-content ul li a:hover{
   text-decoration: none;
   color: #ffa543 !important;
-  background: #79649b !important;
+  background-color: #79649b !important;
 }
 .site-primera-infancia .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
 .site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
