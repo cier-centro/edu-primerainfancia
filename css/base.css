@@ -5,11 +5,10 @@ h2.title {
 .site-primera-infancia #primera_infancia_home_slider {
 	height: 450px;
   overflow: hidden;
-	border-bottom: solid 10px #ffffff;
 }
  .site-primera-infancia #primera_infancia_home_slider .views-slideshow-controls-top {
   position: relative;
-	top: 205px;
+	top: 165px;
 	width: 100%;
   z-index: 10;
 	padding: 0 0%;
@@ -36,12 +35,7 @@ h2.title {
 }
 .site-primera-infancia #primera_infancia_home_slider{
   margin: 0px 0 10px 0;
-  padding: 0px 20px 20px 20px;
   overflow: hidden;
-  background-color: #f1f1f1;
-}
-.site-primera-infancia #primera_infancia_home_slider .view-content{
-  max-height: 420px;
 }
 .site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
 	z-index:100;
