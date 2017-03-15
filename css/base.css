@@ -40,3 +40,33 @@ h2.title {
 .site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
 	z-index:100;
 }
+/*social buttons*/
+.site-primera-infancia .social-butons{
+  height: 600px;
+  background: url("../img/bg-social.png") no-repeat left center #5bd6c1;
+  display: block;
+}
+.site-primera-infancia .social-butons .btn-info{
+  background: #ff6e5f;
+  -webkit-box-shadow: 0 5px 2px 0 #ef4343;
+  box-shadow: 0 5px 2px 0 #ef4343;
+  float: right;
+}
+.site-primera-infancia .social-butons .btn-twitter span, .site-primera-infancia .social-butons .btn-facebook span, .site-primera-infancia .social-butons .btn-youtube span{
+  display: none;
+}
+.site-primera-infancia .social-butons .btn-twitter, .site-primera-infancia .social-butons .btn-facebook, .site-primera-infancia .social-butons .btn-youtube{
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: block;
+}
+.site-primera-infancia .social-butons .btn-twitter{
+  background: url("../img/ico-twitter.png") no-repeat center center / contain;
+}
+.site-primera-infancia .social-butons .btn-facebook{
+  background: url("../img/ico-face.png") no-repeat center center / contain;
+}
+.site-primera-infancia .social-butons .btn-youtube{
+  background: url("../img/ico-youtube.png") no-repeat center center / contain;
+}
