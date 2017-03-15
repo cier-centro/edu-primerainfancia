@@ -51,6 +51,8 @@ h2.title {
   -webkit-box-shadow: 0 5px 2px 0 #ef4343;
   box-shadow: 0 5px 2px 0 #ef4343;
   float: right;
+  border-color: transparent;
+  margin: 25px 10px 25px 0px;
 }
 .site-primera-infancia .social-butons .btn-twitter span, .site-primera-infancia .social-butons .btn-facebook span, .site-primera-infancia .social-butons .btn-youtube span{
   display: none;
@@ -60,6 +62,7 @@ h2.title {
   width: 50px;
   float: right;
   display: block;
+  margin:20px 5px;
 }
 .site-primera-infancia .social-butons .btn-twitter{
   background: url("../img/ico-twitter.png") no-repeat center center / contain;
