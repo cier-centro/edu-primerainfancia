@@ -79,7 +79,7 @@ h2.title {
 }
 /* slider tip pedagogico */
 .site-primera-infancia .pedagogical-tip {
-	height: 200px;
+	height: 245px;
   padding: 10px 20px;
   /*overflow: hidden;*/
 }
@@ -103,14 +103,12 @@ h2.title {
 .site-primera-infancia .pedagogical-tip .views-slideshow-controls-text-previous a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("../img/slider-btn-back.png") no-repeat center center / contain;
-    background-color:red;
+		background: url("../img/slider-tip-btn-back.png") no-repeat center center / contain;
 }
 .site-primera-infancia .pedagogical-tip .views-slideshow-controls-text-next a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("../img/slider-btn-next.png") no-repeat center center / contain;
-    background-color:red;
+		background: url("../img/slider-tip-btn-next.png") no-repeat center center / contain;
 }
 .site-primera-infancia .pedagogical-tip{
   margin: -16px 0 10px 0;
@@ -128,4 +126,7 @@ h2.title {
 .site-primera-infancia .pedagogical-tip .pedagogical-tip-title a{
   border-bottom: 1px solid #ffffff;
   display: block;
+  text-transform: uppercase;
+  text-align: left;
+  padding:5px 10px 5px 30px;
 }
