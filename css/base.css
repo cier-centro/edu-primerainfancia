@@ -115,13 +115,17 @@ h2.title {
 .site-primera-infancia .pedagogical-tip{
   margin: -16px 0 10px 0;
 }
-.site-primera-infancia .pedagogical-tip .views-field .field-content p, .site-primera-infancia .pedagogical-tip .pedagogical-tip-title{
+.site-primera-infancia .pedagogical-tip .views-field .field-content p, .site-primera-infancia .pedagogical-tip .pedagogical-tip-title a{
   padding:10px 10px 10px 30px;
   width: 80%;
   background: #05ab99;
   color:#ffffff;
   margin-left: 60px!important;
 }
-.site-primera-infancia .pedagogical-tip .pedagogical-tip-title{
+.site-primera-infancia .pedagogical-tip .pedagogical-tip-title a:hover{
+  text-decoration: none;
+}
+.site-primera-infancia .pedagogical-tip .pedagogical-tip-title a{
   border-bottom: 1px solid #ffffff;
+  display: block;
 }
