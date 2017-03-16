@@ -139,8 +139,10 @@ h2.title {
   text-transform: uppercase;
   color: #ffffff;
   display: block;
-  -webkit-border-radius: 3px 3px;
-  border-radius: 3px 3px;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  margin: 0px;
+  padding:5px;
 }
 .site-primera-infancia .preschool-home-content h3{
   text-transform: uppercase;
