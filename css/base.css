@@ -85,7 +85,7 @@ h2.title {
 }
  .site-primera-infancia .pedagogical-tip .views-slideshow-controls-top {
   position: relative;
-	top: 95px;
+	top: 80px;
 	width: 100%;
   z-index: 10;
 	padding: 0 0%;
@@ -115,7 +115,7 @@ h2.title {
 }
 .site-primera-infancia .pedagogical-tip .views-field .field-content p, .site-primera-infancia .pedagogical-tip .pedagogical-tip-title a{
   padding:10px 10px 10px 30px;
-  width: 80%;
+  width: 75%;
   background: #05ab99;
   color:#ffffff;
   margin-left: 60px!important;
@@ -129,4 +129,7 @@ h2.title {
   text-transform: uppercase;
   text-align: left;
   padding:5px 10px 5px 30px;
+}
+.site-primera-infancia .preschool-home-content{
+  background: #05ab99;
 }
