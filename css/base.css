@@ -79,7 +79,8 @@ h2.title {
 }
 /* slider tip pedagogico */
 .site-primera-infancia .pedagogical-tip {
-	height: 190px;
+	height: 300px;
+  padding: 50px;
   /*overflow: hidden;*/
 }
  .site-primera-infancia .pedagogical-tip .views-slideshow-controls-top {
@@ -113,9 +114,9 @@ h2.title {
 }
 .site-primera-infancia .pedagogical-tip{
   margin: -16px 0 10px 0;
-  overflow: hidden;
 }
-.site-primera-infancia .pedagogical-tip .views-field > p{
-  padding:5px;
+.site-primera-infancia .pedagogical-tip .views-field .field-content p{
+  padding:10px 10px 10px 30px;
   width: 70%;
+  background: #05ab99;
 }
