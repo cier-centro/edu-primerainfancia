@@ -134,3 +134,15 @@ h2.title {
   background: #f9ede5;
   padding: 10px 25px;
 }
+.site-primera-infancia .preschool-home-content h1{
+  background: #f78747;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  -webkit-border-radius: 3px 3px;
+  border-radius: 3px 3px;
+}
+.site-primera-infancia .preschool-home-content h3{
+  text-transform: uppercase;
+  color:#000000;
+}
