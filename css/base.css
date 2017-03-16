@@ -103,13 +103,19 @@ h2.title {
 		color: transparent;
 		padding-bottom: 35px;
 		background: url("../img/slider-btn-back.png") no-repeat center center / contain;
+    background-color:red;
 }
 .site-primera-infancia .pedagogical-tip .views-slideshow-controls-text-next a {
 		color: transparent;
 		padding-bottom: 35px;
 		background: url("../img/slider-btn-next.png") no-repeat center center / contain;
+    background-color:red;
 }
 .site-primera-infancia .pedagogical-tip{
-  /*margin: -16px 0 10px 0;*/
+  margin: -16px 0 10px 0;
   overflow: hidden;
+}
+.site-primera-infancia .pedagogical-tip .views-field > p{
+  padding:5px;
+  width: 70%;
 }
