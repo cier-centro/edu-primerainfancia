@@ -80,7 +80,7 @@ h2.title {
 /* slider tip pedagogico */
 .site-primera-infancia .pedagogical-tip {
 	height: 245px;
-  padding: 10px 20px;
+  padding: 10px 25px;
   /*overflow: hidden;*/
 }
  .site-primera-infancia .pedagogical-tip .views-slideshow-controls-top {
@@ -111,7 +111,7 @@ h2.title {
 		background: url("../img/slider-tip-btn-next.png") no-repeat center center / contain;
 }
 .site-primera-infancia .pedagogical-tip{
-  margin: -16px 0 10px 0;
+  margin: -16px 0 0px 0;
 }
 .site-primera-infancia .pedagogical-tip .views-field .field-content p, .site-primera-infancia .pedagogical-tip .pedagogical-tip-title a{
   padding:10px 10px 10px 30px;
@@ -131,5 +131,6 @@ h2.title {
   padding:5px 10px 5px 30px;
 }
 .site-primera-infancia .preschool-home-content{
-  background: #05ab99;
+  background: #f9ede5;
+  padding: 10px 25px;
 }
