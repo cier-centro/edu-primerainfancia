@@ -42,7 +42,7 @@ h2.title {
 }
 /*social buttons*/
 .site-primera-infancia .social-butons{
-  height: 90px;
+  height: 100px;
   background: url("../img/bg-social.png") no-repeat left center #5bd6c1;
   display: block;
 }
@@ -115,7 +115,7 @@ h2.title {
 }
 .site-primera-infancia .pedagogical-tip .views-field .field-content p, .site-primera-infancia .pedagogical-tip .pedagogical-tip-title a{
   padding:10px 10px 10px 30px;
-  width: 75%;
+  width: 70%;
   background: #05ab99;
   color:#ffffff;
   margin-left: 60px!important;
@@ -142,7 +142,7 @@ h2.title {
   -webkit-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
   margin: 0px;
-  padding:5px;
+  padding:5px 20px;
   font-weight: bold;
 }
 .site-primera-infancia .preschool-home-content h3{
