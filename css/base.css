@@ -169,8 +169,11 @@ h2.title {
 .site-primera-infancia .events-content h2{
   display:block;
   background: #05ab99 url("../img/ico-eventos.png") no-repeat;
+  background-position: 100px -5px;
   color:#ffffff;
   text-transform: uppercase;
+  margin:0px;
+  padding:5px;
 }
 .site-primera-infancia .preschool-home-content .col-md-4.bg-white {
   width: 32%;
