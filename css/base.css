@@ -157,5 +157,5 @@ h2.title {
   background-color: white;
 }
 .site-primera-infancia .preschool-home-content .bg-white p, .site-primera-infancia .preschool-home-content .bg-white h3{
-  margin:15px;
+  margin:15px!important;
 }
