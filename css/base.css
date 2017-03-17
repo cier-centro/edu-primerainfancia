@@ -156,8 +156,20 @@ h2.title {
 }
 .site-primera-infancia .preschool-home-content .bg-white{
   background-color: white;
-  /*padding-right: 0px;*/
 }
 .site-primera-infancia .preschool-home-content .bg-white p, .site-primera-infancia .preschool-home-content .bg-white h3{
   margin:15px!important;
+}
+.site-primera-infancia .preschool-home-content .tecnical-documents{
+
+}
+.site-primera-infancia .preschool-home-content .events-content{
+
+}
+.site-primera-infancia .preschool-home-content .col-md-4.bg-white {
+  width: 32%;
+}
+.site-primera-infancia .preschool-home-content .col-md-8.bg-white{
+  width: 65%;
+  margin-right: 15px;
 }
