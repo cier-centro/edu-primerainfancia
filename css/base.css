@@ -174,7 +174,12 @@ h2.title {
   text-transform: uppercase;
   margin: 0px -15px;
   padding:5px 15px;
-
+}
+.site-primera-infancia .events-content .views-row{
+  margin: 10px 0px;
+}
+.site-primera-infancia .events-content .views-row img, .site-primera-infancia .events-content .views-row a, .site-primera-infancia .events-content .views-row p{
+  display:inline-block;
 }
 .site-primera-infancia .preschool-home-content .col-md-4.bg-white {
   width: 32%;
