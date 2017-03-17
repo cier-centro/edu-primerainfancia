@@ -146,6 +146,7 @@ h2.title {
   margin: 0px;
   padding:5px 20px;
   font-weight: bold;
+  margin: 0px -15px 0 0;
 }
 .site-primera-infancia .preschool-home-content h3{
   margin:15px 0px;
@@ -155,6 +156,7 @@ h2.title {
 }
 .site-primera-infancia .preschool-home-content .bg-white{
   background-color: white;
+  /*padding-right: 0px;*/
 }
 .site-primera-infancia .preschool-home-content .bg-white p, .site-primera-infancia .preschool-home-content .bg-white h3{
   margin:15px!important;
