@@ -153,3 +153,9 @@ h2.title {
   color:#000000;
   font-weight: bold;
 }
+.site-primera-infancia .preschool-home-content .bg-white{
+  background-color: white;
+}
+.site-primera-infancia .preschool-home-content .bg-white p, .site-primera-infancia .preschool-home-content .bg-white h3{
+  margin:15px;
+}
