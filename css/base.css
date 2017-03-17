@@ -172,8 +172,9 @@ h2.title {
   background-position: 100px -5px;
   color:#ffffff;
   text-transform: uppercase;
-  margin:0px;
-  padding:5px;
+  margin: 0px -15px;
+  padding:5px 15px;
+
 }
 .site-primera-infancia .preschool-home-content .col-md-4.bg-white {
   width: 32%;
