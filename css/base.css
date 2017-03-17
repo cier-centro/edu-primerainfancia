@@ -181,6 +181,13 @@ h2.title {
 .site-primera-infancia .events-content .views-row img, .site-primera-infancia .events-content .views-row a, .site-primera-infancia .events-content .views-row p{
   display:inline-block;
 }
+.site-primera-infancia .events-content .views-row img{
+  width: 30%;
+  height: auto;
+}
+.site-primera-infancia .events-content .views-row a, .site-primera-infancia .events-content .views-row p{
+  width: 70%;
+}
 .site-primera-infancia .preschool-home-content .col-md-4.bg-white {
   width: 32%;
 }
