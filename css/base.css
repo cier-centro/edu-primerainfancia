@@ -182,7 +182,7 @@ h2.title {
   display:inline-block;
 }
 .site-primera-infancia .events-content .views-row img{
-  width: 30%;
+  /*width: 30%;*/
 }
 .site-primera-infancia .events-content .views-row a, .site-primera-infancia .events-content .views-row p{
   width: 70%;
