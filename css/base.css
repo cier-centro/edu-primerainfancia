@@ -177,9 +177,11 @@ h2.title {
 }
 .site-primera-infancia .events-content .views-row{
   margin: 10px 0px;
+  max-height: 145px;
+  overflow: hidden;
 }
 .site-primera-infancia .events-content .views-row img, .site-primera-infancia .events-content .views-row a, .site-primera-infancia .events-content .views-row p{
-  display:inline-block;
+  display: inline;
 }
 .site-primera-infancia .events-content .views-row img{
   /*width: 30%;*/
@@ -201,6 +203,7 @@ h2.title {
   margin: 15px 0;
 }
 .library span{
+  -webkit-font-smoothing:initial!important;
   font-weight: bold;
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.2);
@@ -209,4 +212,5 @@ h2.title {
   margin: 0px -15px;
   padding: 5px 20px;
   display: inline-block;
+  font-size: 22px;
 }
