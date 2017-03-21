@@ -194,3 +194,8 @@ h2.title {
   width: 65%;
   margin-right: 15px;
 }
+.library{
+  display: block;
+  background: url("../img/bg-library.png") no-repeat;
+  height: 100px;
+}
