@@ -197,5 +197,11 @@ h2.title {
 .library{
   display: block;
   background: url("../img/bg-library.jpg") no-repeat;
-  height: 100px;
+  height: 370px;
+  margin: 15px 0;
+}
+.library span{
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: rgba(255, 0, 0, 0.2);
 }
