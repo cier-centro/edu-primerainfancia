@@ -5,6 +5,22 @@ h2.title {
 .site-primera-infancia .main-menu{
     z-index: 10;
 }
+.site-primera-infancia .main-menu > .pane-content > ul > li:first-child a{
+  -webkit-border-radius: 20px 0 0 0;
+  border-radius: 20px 0 0 0;
+}
+.site-primera-infancia .main-menu > .pane-content > ul > li{
+  -webkit-border-radius: 20px 0 0 0;
+  border-radius: 20px 0 0 0;
+}
+.site-primera-infancia .main-menu > .pane-content > ul > li:last-child a{
+  -webkit-border-radius: 0 20px 0 0;
+  border-radius: 0 20px 0 0;
+}
+.site-primera-infancia .main-menu > .pane-content > ul > li:last-child{
+  -webkit-border-radius: 0 20px 0 0;
+  border-radius: 0 20px 0 0;
+}
 /*slider*/
 .site-primera-infancia #primera_infancia_home_slider {
 	height: 450px;
