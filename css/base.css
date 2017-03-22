@@ -189,9 +189,7 @@ h2.title {
 .site-primera-infancia .preschool-home-content .bg-white p, .site-primera-infancia .preschool-home-content .bg-white h3{
   margin:15px!important;
 }
-.site-primera-infancia .preschool-home-content .tecnical-documents{
-
-}
+.site-primera-infancia .preschool-home-content .tecnical-documents{}
 .site-primera-infancia .preschool-home-content .tecnical-documents h3{
   background: #ff6e5f;
   text-transform: uppercase;
@@ -259,4 +257,8 @@ h2.title {
 .site-primera-infancia .preschool-home-content .bg-white .tecnical-documents h3{
   margin: 0 -15px!important;
   padding: 10px 20px;
+}
+.site-primera-infancia .preschool-home-content .bg-white .tecnical-documents .media{
+  background: #b2e6f9;
+  margin: 10px 0;
 }
