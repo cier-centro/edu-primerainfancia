@@ -108,7 +108,7 @@
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(5){width: 15%;}
 .site-primera-infancia .main-menu > .pane-content > ul > li:last-child{
 	border-right: none;
-  width: 17.1%;
+  width: 17%;
 }
 /*cuando el menú tiene difirentes tamaños para cada hijo o imágenes*/
 .site-primera-infancia .main-menu > .pane-content > ul > li:first-child a{
