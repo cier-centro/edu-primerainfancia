@@ -3,7 +3,9 @@ h2.title {
 }
 /*menu*/
 .site-primera-infancia .main-menu{
-    z-index: 10;
+  z-index: 10;
+  min-width: 730px;
+  margin: auto;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:first-child a{
   -webkit-border-radius: 20px 0 0 0;
