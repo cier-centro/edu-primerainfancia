@@ -95,15 +95,20 @@
 /***MENÚ***/
 /*cuando todos los hijos del menú son iguales*/
 .site-primera-infancia .main-menu > .pane-content > ul > li{
-  width: 16.68%;
   display: inline-block;
   margin-right: -4px;
   box-sizing: border-box;
   height: 75px;
   background: #f78747 !important;
 }
+.site-primera-infancia .main-menu > .pane-content > ul > li:first-child{width: 15%;}
+.site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(2){width: 16%;}
+.site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(3){width: 15%;}
+.site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(4){width: 17%;}
+.site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(5){width: 15%;}
 .site-primera-infancia .main-menu > .pane-content > ul > li:last-child{
 	border-right: none;
+  width: 15%;
 }
 /*cuando el menú tiene difirentes tamaños para cada hijo o imágenes*/
 .site-primera-infancia .main-menu > .pane-content > ul > li:first-child a{
