@@ -4,7 +4,7 @@ h2.title {
 /*menu*/
 .site-primera-infancia .main-menu{
   z-index: 10;
-  min-width: 730px;
+  width: 730px;
   margin: auto;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:first-child a{
