@@ -258,7 +258,9 @@ h2.title {
   margin: 0 -15px!important;
   padding: 10px 20px;
 }
-.site-primera-infancia .preschool-home-content .bg-white .tecnical-documents .media{
+.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .media{
   background: #b2e6f9;
-  margin: 10px 0;
+}
+.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .media-list {
+margin: 10px 0;
 }
