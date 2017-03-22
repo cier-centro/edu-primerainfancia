@@ -100,29 +100,29 @@
   margin-right: -4px;
   box-sizing: border-box;
   height: 75px;
-  background:#ffae55 !important;
+  background: #f78747 !important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:last-child{
 	border-right: none;
 }
 /*cuando el menú tiene difirentes tamaños para cada hijo o imágenes*/
 .site-primera-infancia .main-menu > .pane-content > ul > li:first-child a{
-	background:url("../img/inicio.png") #ffae55 no-repeat center center!important;
+	background:url(../img/inicio.png) #f78747 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(2) a{
-	background:url("../img/ninosyninas.png") #ffae55 no-repeat center center!important;
+	background:url("../img/ninosyninas.png") #f78747 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(3) a{
-	background:url("../img/familias.png")#ffae55 no-repeat center center!important;
+	background:url("../img/familias.png")#f78747 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(4) a{
-	background:url("../img/secretariasdeeducacion.png") #ffae55 no-repeat center center!important;
+	background:url("../img/secretariasdeeducacion.png") #f78747 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:nth-child(5) a{
-	background:url("../img/maestrosymaestras.png") #ffae55 no-repeat center center!important;
+	background:url("../img/maestrosymaestras.png") #f78747 no-repeat center center!important;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:last-child a{
-  background:url("../img/comunidades.png") #ffae55 no-repeat center center!important;
+  background:url("../img/comunidades.png") #f78747 no-repeat center center!important;
 	/*width:16%;*/
 }
 .site-primera-infancia #microsite_panel .main-menu, .site-primera-infancia #microsite_panel .main-menu > div .menu{
@@ -142,8 +142,8 @@
 /*.site-primera-infancia .main-menu .pane-content ul li a{background:#ffae55 !important;}*/
 .site-primera-infancia .main-menu .pane-content ul li a:hover{
   text-decoration: none;
-  color: #ffa543 !important;
-  background-color: #79649b !important;
+  color: #ffffff !important;
+  background-color : #79649b !important;
 }
 .site-primera-infancia .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
 .site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
