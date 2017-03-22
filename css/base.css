@@ -193,7 +193,13 @@ h2.title {
 
 }
 .site-primera-infancia .preschool-home-content .tecnical-documents h3{
-  
+  background: #ff6e5f;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  padding: 5px 20px;
+  font-weight: bold;
+  margin: 0px -15px !important;
 }
 .site-primera-infancia .events-content{
   margin:15px 0;
