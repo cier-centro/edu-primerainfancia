@@ -8,6 +8,8 @@ h2.title {
   margin: auto;
   -webkit-box-shadow: 5px 5px 0 0 rgba(218,98,5,1);
   box-shadow: 5px 5px 0 0 rgba(218,98,5,1);
+  -webkit-border-radius: 0 20px 0 0;
+  border-radius: 0 20px 0 0;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:first-child a{
   -webkit-border-radius: 20px 0 0 0;
