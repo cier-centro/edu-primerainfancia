@@ -283,3 +283,14 @@ h2.title {
   background: #5bd6c1 url("../img/ico-dwd-pdf.png") no-repeat center center / contain;
   height: 100%;
 }
+.preschool-content .tabs-childrens .item-list > ul > li{
+  top:0px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+.preschool-content .tabs-childrens .item-list > ul {
+  border: none;
+}
+.preschool-content .tabs-childrens .item-list > ul > li a{
+  border-bottom: none;
+}
