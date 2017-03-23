@@ -130,6 +130,9 @@
   background:url("../img/comunidades.png") #f78747 no-repeat center center!important;
 	/*width:16%;*/
 }
+.site-primera-infancia .main-menu > .pane-content > ul > li a .active{
+  background-color : #f4bc4a !important;
+}
 .site-primera-infancia #microsite_panel .main-menu, .site-primera-infancia #microsite_panel .main-menu > div .menu{
 	/*background-color: #a4579d !important;*/
 	border-bottom: none;
