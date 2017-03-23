@@ -283,13 +283,17 @@ h2.title {
   background: #5bd6c1 url("../img/ico-dwd-pdf.png") no-repeat center center / contain;
   height: 100%;
 }
+.site-primera-infancia .tabs-childrens .pane-content .item-list{
+  margin-top: 50px;
+}
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li{
   top:0px!important;
   border:none;
-  border-bottom: none;
+  border-bottom: 1px solid #ccc;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li.active{
   border: 1px solid #ccc;
+  border-bottom: none;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul {
   border: none;
