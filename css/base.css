@@ -265,6 +265,7 @@ h2.title {
 .site-primera-infancia .preschool-home-content .bg-white.tecnical-documents a {
   display:inline-block;
   width: 30%;
+  margin-left: -15px;
 }
 .site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .boddy-doc{
   width: 60%;
@@ -273,4 +274,5 @@ h2.title {
 .site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .dwd-icon{
   width: 10%;
   display:inline-block;
+  margin-right: -15px;
 }
