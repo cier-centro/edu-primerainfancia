@@ -299,6 +299,8 @@ h2.title {
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul {
   border: none;
+  border-bottom: 1px solid #ccc;
+  height: 45px;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li a{
   border-bottom: none;
@@ -308,4 +310,5 @@ h2.title {
   margin: 0px;
   border: 1px solid #b3b3b3;
   margin-top: -1px;
+  border-top: 0px;
 }
