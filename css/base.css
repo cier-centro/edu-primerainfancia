@@ -269,6 +269,8 @@ h2.title {
 .site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .boddy-doc{
   width: 57%;
   display:inline-block;
+  height: 90px;
+  overflow: hidden;
 }
 .site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .dwd-icon{
   width: 10%;
