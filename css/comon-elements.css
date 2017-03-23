@@ -150,7 +150,7 @@
   color: #ffffff !important;
   background-color : #f4bc4a !important;
 }
-.site-primera-infancia .main-menu > .pane-content > ul > li a .active{
+.site-primera-infancia .main-menu > .pane-content > ul > li a.active{
   background-color : #f4bc4a !important;
 }
 .site-primera-infancia .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
