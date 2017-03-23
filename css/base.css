@@ -289,10 +289,11 @@ h2.title {
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li{
   top:0px!important;
   border:none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #b3b3b3;
+  background: #ffffff;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li.active{
-  border: 1px solid #ccc;
+  border: 1px solid #b3b3b3;
   border-bottom: none;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul {
@@ -304,5 +305,5 @@ h2.title {
 .site-primera-infancia .tabs-childrens .quicktabs_main{
   padding:20px;
   margin: 0px;
-  border: 1px solid #ccc;
+  border: 1px solid #b3b3b3;
 }
