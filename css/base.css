@@ -303,4 +303,6 @@ h2.title {
 }
 .site-primera-infancia .tabs-childrens .quicktabs_main{
   padding:20px;
+  margin: 0px;
+  border: 1px solid #ccc;
 }
