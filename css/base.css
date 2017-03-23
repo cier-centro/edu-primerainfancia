@@ -291,6 +291,7 @@ h2.title {
   border:none;
   /*border-bottom: 1px solid #b3b3b3;*/
   background: #ffffff;
+  line-height: 40px;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li.active{
   border: 1px solid #b3b3b3;
