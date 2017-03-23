@@ -254,13 +254,21 @@ h2.title {
   display: inline-block;
   font-size: 22px;
 }
-.site-primera-infancia .preschool-home-content .bg-white .tecnical-documents h3{
+.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents h3{
   margin: 0 -15px!important;
   padding: 10px 20px;
 }
-.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .media{
+.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents ul li{
   background: #b2e6f9;
+  margin:10px 0;
 }
-.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .media-list {
-margin: 10px 0;
+.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents a {
+  display:inline-block;
+  width: 20%;
+}
+.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .boddy-doc{
+  width: 40%;
+}
+.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .dwd-icon{
+  width: 40%;
 }
