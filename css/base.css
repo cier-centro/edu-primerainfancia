@@ -285,11 +285,11 @@ h2.title {
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li{
   top:0px!important;
-  border: 1px solid #ccc;
+  border:none;
   border-bottom: none;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li.active{
-  border:none;
+  border: 1px solid #ccc;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul {
   border: none;
