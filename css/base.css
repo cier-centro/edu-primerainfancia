@@ -282,7 +282,7 @@ h2.title {
   height: 100%;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list{
-  margin: 20px;
+  margin-top: 20px;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li{
   top:0px!important;
