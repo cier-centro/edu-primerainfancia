@@ -4,6 +4,7 @@ h2.title {
 /*menu*/
 .site-primera-infancia .main-menu{
   z-index: 10;
+  position: relative;
   width: 700px;
   margin: auto;
   -webkit-box-shadow: 5px 5px 0 0 rgba(218,98,5,1);
@@ -104,15 +105,15 @@ h2.title {
 }
 /* tip pedagogico, preescolar es una nota y documentos de referencia*/
 .site-primera-infancia .pedagogical-tip{
-    background: url ("../img/img-tip-teacher.png") no-repeat ;
+    background: url("../img/img-tip-teacher.png") no-repeat;
     background-color: #f9ede5;
-    background-position: right;
+    background-position: 90% 0px;
 }
 /* slider tip pedagogico */
 .site-primera-infancia .pedagogical-tip {
 	height: 245px;
   padding: 10px 25px;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
  .site-primera-infancia .pedagogical-tip .views-slideshow-controls-top {
   position: relative;
@@ -140,9 +141,6 @@ h2.title {
 		color: transparent;
 		padding-bottom: 35px;
 		background: url("../img/slider-tip-btn-next.png") no-repeat center center / contain;
-}
-.site-primera-infancia .pedagogical-tip{
-  margin: -16px 0 0px 0;
 }
 .site-primera-infancia .pedagogical-tip .views-field .field-content p, .site-primera-infancia .pedagogical-tip .pedagogical-tip-title a{
   padding:10px 10px 10px 30px;
@@ -284,7 +282,7 @@ h2.title {
   height: 100%;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list{
-  margin-top: 20px;
+  margin: 20px;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li{
   top:0px!important;
