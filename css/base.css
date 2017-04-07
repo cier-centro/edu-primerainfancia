@@ -149,6 +149,9 @@ h2.title {
   color:#ffffff!important;
   margin-left: 60px!important;
 }
+.site-primera-infancia .pedagogical-tip .views-field.views-field-body{
+  margin-top: -11px;
+}
 .site-primera-infancia .pedagogical-tip .pedagogical-tip-title a:hover{
   text-decoration: none;
 }
