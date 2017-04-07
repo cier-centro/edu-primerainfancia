@@ -146,7 +146,7 @@ h2.title {
   padding:10px 10px 10px 30px;
   width: 70%;
   background: #05ab99;
-  color:#ffffff;
+  color:#ffffff!important;
   margin-left: 60px!important;
 }
 .site-primera-infancia .pedagogical-tip .pedagogical-tip-title a:hover{
