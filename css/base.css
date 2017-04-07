@@ -161,6 +161,8 @@ h2.title {
   text-transform: uppercase;
   text-align: left;
   padding:5px 10px 5px 30px;
+  text-decoration: underline;
+  font-size: 22px;
 }
 .site-primera-infancia .preschool-home-content{
   background: #f9ede5;
