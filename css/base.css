@@ -67,6 +67,14 @@ h2.title {
   margin: -95px 0 10px 0;
   overflow: hidden;
 }
+#primera_infancia_home_slider .views_slideshow_slide > div .views-field-body {
+		position: absolute;
+		top: 23%;
+		width: 70%;
+		right: 12%;
+		background: white;
+		padding: 15px;
+}
 .site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
 	z-index:100;
 }
@@ -318,13 +326,4 @@ h2.title {
 .site-primera-infancia .section_content p{
   margin-top: 10px!important;
   color:#666666!important;
-}
-
-#primera_infancia_home_slider .views_slideshow_slide > div .views-field-body {
-		position: absolute;
-		top: 23%;
-		width: 70%;
-		right: 12%;
-		background: white;
-		padding: 15px;
 }
