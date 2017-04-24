@@ -69,11 +69,12 @@ h2.title {
 }
 .site-primera-infancia #primera_infancia_home_slider .views_slideshow_slide > div .views-field-body {
 		position: absolute;
-		bottom: 300px;
+		top: 350px;
 		width: 100%;
 		/*right: 12%;*/
 		background-color: rgba(5, 171, 153, 0.3);
 		padding: 15px;
+    color:#ffffff;
 }
 .site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
 	z-index:100;
