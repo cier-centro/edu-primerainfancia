@@ -76,6 +76,9 @@ h2.title {
 		padding: 15px 30px;
     color:#ffffff;
 }
+.site-primera-infancia #primera_infancia_home_slider .views_slideshow_slide > div .views-field-body p {
+  color:#ffffff!important;
+}
 .site-primera-infancia #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
 	z-index:100;
 }
