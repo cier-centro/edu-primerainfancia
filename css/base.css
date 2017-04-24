@@ -75,6 +75,7 @@ h2.title {
 		background-color: rgba(5, 171, 153, 0.3);
 		padding: 15px 30px;
     color:#ffffff;
+    min-height: 100px;
 }
 .site-primera-infancia #primera_infancia_home_slider .views_slideshow_slide > div .views-field-body p {
   color:#ffffff!important;
