@@ -1,0 +1,17 @@
+btn_nacerycaminar
+btn_exploraryconversar
+btn_preguntaryrepresentar
+btn_compartirycrear
+#btn_arte
+#btn_juego
+#btn_sentido
+#btn_literatura
+btn_indagar
+btn_proyectar
+btn_vivirexperiencia
+btn_valorarproceso
+#btn_seguimiento
+#btn_exploracion
+btn_eduinicial
+btn_edudiversa
+btn_acompaniamiento

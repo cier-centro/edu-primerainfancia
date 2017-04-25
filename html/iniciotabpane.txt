@@ -1,0 +1,85 @@
+ <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+		<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+		Prescolar es una nota</a>
+	  </h4>
+	</div>
+	<div id="collapse1" class="panel-collapse collapse">
+	  <div class="panel-body">
+		<p>Empezar la vida escolar, es uno de los primeros retos para los niños y niñas el cual determinara el resto de la trayectoria educativa. Por este motivo, queremos que este inicio se de en condiciones de calidad y calidez, para lo cual contamos con su disposición, conocimiento y experiencia , los cuales queremos aprovechar al máximo para hacer posible un gran sueño: hacer de los grados pre jardín, jardín y transición un espacio de atención integral, a través de un proyecto que hemos llamado Preescolar es una Nota!, que consiste en organizarnos desde la comunidad educativa y el municipio para que a los niños y las niñas en su institución educativa se le garantice: experiencias pedagógicas de calidad, seguimiento a su estado de salud y nutrición, alimentación adecuada, acompañamiento a ustedes en el aula, espacios agradables y seguros y apoyo psicosocial cuando lo requiera.</p>
+		<p>Preescolar es una nota es una iniciativa que busca que los niños y niñas que asisten a los grados pre jardín, jardín y transición se les garantice el derecho al desarrollo integral y las condiciones para acceder y permanecer en los establecimientos educativos. Por lo anterior, esta apuesta aborda los aspectos no negociables para que los niños y niñas se sientan a gusto en su primera experiencia educativa en el sistema educativo, que vivan experiencias pedagógicas que potencien al máximo su desarrollo integral, que sus docentes estén motivados y sean los mejores, que se les garantice una alimentación saludable y balanceada y que sus familias participen activamente en los procesos educativos.</p>
+	  </div>
+	</div>
+  </div>
+  <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+		<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+		Bases curriculares para la educación inicial y preescolar</a>
+	  </h4>
+	</div>
+	<div id="collapse2" class="panel-collapse collapse">
+	  <div class="panel-body">
+		<p>El desarrollo de propuestas pedagógicas adecuadas requiere que las maestras y maestros de la educación inicial y preescolar, cuenten con herramientas e instrumentos que les permitan organizar su práctica, reflexionarla y enriquecerla, para que responda de manera sensible al momento de desarrollo que viven los niños y las niñas de cada grupo a su cargo. </p>
+		<p>Las Bases Curriculares son un recurso orientado hacia este fin, que consolida y complementa los ‘Referentes técnicos para la educación inicial en el marco de la atención integral’, a través de una propuesta que conjuga dos elementos: las experiencias que se espera que las niñas y niños de primera infancia vivan durante su educación inicial, y, cuatro procesos esenciales para la organización de la práctica pedagógica -indagar, proyectar, vivir la experiencia y valorar el proceso-.</p>
+	  </div>
+	</div>
+  </div>
+  <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+		<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+		¡Todos listos!</a>
+	  </h4>
+	</div>
+	<div id="collapse3" class="panel-collapse collapse">
+	  <div class="panel-body">
+		<p>Todos listos para acompañar las transiciones de los niños y las niñas en el entorno educativo es la estrategia para garantizar el paso de los niños y niñas de manera armónica, confiada y tranquila entre los diferentes niveles de la educación inicial y el grado primero de la educación básica.</p>
+		<p>Para estar ¡Todos Listos!!! se requiere que familias, instituciones educativas, maestras y maestros y secretarías de educación se articulen para promover el ingreso, la continuidad en el proceso pedagógico y la permanencia de los niños y niñas en el entorno educativo.</p>
+	  </div>
+	</div>
+  </div>
+  
+  <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+		<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+		Modelo de medición de la calidad</a>
+	  </h4>
+	</div>
+	<div id="collapse4" class="panel-collapse collapse">
+	  <div class="panel-body">
+		<p>Contar con información sobre la calidad de los servicios de educación inicial, contribuye a la toma de decisiones para realizar ajustes, diseñar nuevas estrategias y garantizar una mejora permanente de las experiencias educativas de los niños y niñas de la primera infancia. </p>
+		<p>Por esto, en alianza con el Departamento Administrativo de la Presidencia de la República -DAPRE-, el Instituto Colombiano para la Evaluación de la Educación -ICFES-, un equipo de asesores de las Universidades de Yale, Columbia y Nueva York, y el apoyo del Instituto Colombiano de Bienestar Familiar -ICBF-, hemos desarrollado un modelo de medición de la calidad de la educación inicial, que se ha puesto en marcha en un grupo de Unidades de Servicio de la modalidad institucional y espera escalarse a los demás entornos educativos para la primera infancia. </p>
+		<p>Este modelo incluye la valoración de las condiciones de calidad de los servicios de educación y el estado del desarrollo de las niñas y los niños que participan en dicha modalidad, como una forma de establecer análisis ricos sobre las experiencias que acontecen en las instituciones.</p>
+	  </div>
+	</div>
+  </div>
+  
+  <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+		<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+		•	Modelo de Acompañamiento Situado MAS+</a>
+	  </h4>
+	</div>
+	<div id="collapse5" class="panel-collapse collapse">
+	  <div class="panel-body">
+		<p>El MAS+ es una estrategia para el mejoramiento de la calidad de la educación inicial, a través de la cualificación de las capacidades de maestras y maestros, para asegurar interacciones adecuadas, que promuevan el desarrollo y aprendizaje de los niños y niñas desde la primera infancia. </p>
+		<p>Se fundamenta en las herramientas y referentes educativos y de atención integral con los que cuenta el país, y propone a las maestras y maestros fortalecer activa y permanentemente sus experiencias, a partir de un trabajo colaborativo, centrado en el diálogo entre pares, el acompañamiento permanente y la reflexión sobre su práctica cotidiana.</p>
+		<p>En el espacio del recuadro pequeño listaríamos otros procesos estratégicos que se desarrollan en la Dirección, y que conducen a un link en el que se despliega la información detallada. No se trataría de vínculos que llevan a la descarga de un pdf., sino de links a otras secciones de la misma página. El listado incluye:
+		<ul>
+			<li>Gestión de la calidad de la educación inicial</li>
+			<li>Excelencia docente</li>
+			<li>Educación inicial diversa e incluyente</li>
+			<li>Camino de tesoros</li>
+			<li>Derechos Básicos de Aprendizaje -DBA- para el grado transición</li>
+		</ul>
+		</p>
+	  </div>
+	</div>
+  </div>
+  
+</div> 
