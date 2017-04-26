@@ -333,3 +333,7 @@ h2.title {
   margin-top: 10px!important;
   color:#666666!important;
 }
+/*Niños y niñas*/
+.site-primera-infancia .modal-cont-boys-girls{
+  background: #a6e2f4 url("../img/ico-dwd-pdf.png") no-repeat center center / contain;
+}

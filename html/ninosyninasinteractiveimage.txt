@@ -1,6 +1,5 @@
-<div id="container_buttons">
-	<img id="image_buttons" src="/ckfinder/userfiles/images/imagenniniosyninias2.jpg" style="width: 100%" />
-	
+<div id="container_buttons" class="modal-cont-boys-girls">
+
 	<!-- Modal musica-->
 	<div id="modal_musica" class="modal fade" role="dialog">
 	  <div class="modal-dialog">
@@ -27,7 +26,7 @@
 
 	  </div>
 	</div>
-	
+
 	<!-- Modal videos-->
 	<div id="modal_videos" class="modal fade" role="dialog">
 	  <div class="modal-dialog">
@@ -52,7 +51,7 @@
 
 	  </div>
 	</div>
-	
+
 	<!-- Modal Creaciones artísticas-->
 	<div id="modal_creaciones" class="modal fade" role="dialog">
 	  <div class="modal-dialog">
@@ -77,8 +76,8 @@
 
 	  </div>
 	</div>
-	
-	
+
+
 	<!-- Modal Juegos-->
 	<div id="modal_juegos" class="modal fade" role="dialog">
 	  <div class="modal-dialog">
@@ -103,7 +102,7 @@
 
 	  </div>
 	</div>
-	
+
 	<!-- Modal Cuentos-->
 	<div id="modal_cuentos" class="modal fade" role="dialog">
 	  <div class="modal-dialog">
@@ -137,7 +136,7 @@
 		var image =  $("#image_buttons")
 		var width = container.width();
 		var height = container.height();
-		//Música, Videos, Creaciones artísticas, Juegos, Cuentos. 
+		//Música, Videos, Creaciones artísticas, Juegos, Cuentos.
 		//Música
 		var newdiv = $("<button class='btn' data-toggle='modal' data-target='#modal_musica'>Música</button>")
 		newdiv.css("position","absolute")
