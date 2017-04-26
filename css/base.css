@@ -336,4 +336,7 @@ h2.title {
 /*Niños y niñas*/
 .site-primera-infancia .modal-cont-boys-girls{
   background: #a6e2f4 url("../img/bg-ninos-ninas.png") no-repeat center bottom;
+  position: relative;
+  top: 165px;
+  min-height: 500px;
 }
