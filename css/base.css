@@ -69,7 +69,7 @@ h2.title {
 }
 .site-primera-infancia #primera_infancia_home_slider .views_slideshow_slide > div .views-field-body {
 		position: absolute;
-		top: 350px;
+		top: 330px;
 		width: 100%;
 		/*right: 12%;*/
 		background-color: rgba(5, 171, 153, 0.5);
@@ -95,7 +95,8 @@ h2.title {
   box-shadow: 0 5px 2px 0 #ef4343;
   float: right;
   border-color: transparent;
-  margin: 25px 10px 25px 0px;
+  margin: 30px 60px 25px -30px;
+  padding: 6px 25px;
 }
 .site-primera-infancia .social-butons .btn-twitter span, .site-primera-infancia .social-butons .btn-facebook span, .site-primera-infancia .social-butons .btn-youtube span{
   display: none;
@@ -331,4 +332,8 @@ h2.title {
 .site-primera-infancia .section_content p{
   margin-top: 10px!important;
   color:#666666!important;
+}
+/*Niños y niñas*/
+.site-primera-infancia .modal-cont-boys-girls{
+  background: #a6e2f4 url("../img/bg-ninos-ninas.png") no-repeat center bottom;
 }

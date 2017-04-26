@@ -1,0 +1,176 @@
+<div id="container_buttons" class="modal-cont-boys-girls">
+
+	<!-- Modal musica-->
+	<div id="modal_musica" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Música</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>
+				<ul>
+					<li>Caja de música <a href="http://maguare.gov.co/caja-de-musica/">Aquí</a></li>
+					<li>Palabras al aire <a href="http://maguare.gov.co/palabras-al-aire/">Aquí</a></li>
+					<li>Música Libre <a href="http://www.musicalibre.com.co/">Aquí</a></li>
+					<li>Camusi Camusi <a href="http://www.camusicamusi.com/#Home">Aquí</a></li>
+				</ul>
+			</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		  </div>
+		</div>
+
+	  </div>
+	</div>
+
+	<!-- Modal videos-->
+	<div id="modal_videos" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Videos</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>
+				<ul>
+					<li>Casa del árbol  <a href="http://maguare.gov.co/mi-casa-en-el-arbol/">Aquí</a></li>
+					<li>Dinopaka <a href="http://186.113.12.182/catalogo//interna_recurso.php?nt=64261">Aquí</a></li>
+				</ul>
+			</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		  </div>
+		</div>
+
+	  </div>
+	</div>
+
+	<!-- Modal Creaciones artísticas-->
+	<div id="modal_creaciones" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Creaciones artísticas</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>
+				<ul>
+					<li>Pinta con colores <a href="http://maguare.gov.co/mi-casa-en-el-arbol/pinta-pinta/crea-con-colores">Aquí</a></li>
+					<li>Pakapaka Tonki <a href="http://186.113.12.182/catalogo//interna_coleccion.php?cl=53961">Aquí</a></li>
+				</ul>
+			</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		  </div>
+		</div>
+
+	  </div>
+	</div>
+
+
+	<!-- Modal Juegos-->
+	<div id="modal_juegos" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Juegos</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>
+				<ul>
+					<li>Cuento contigo <a href="http://maguare.gov.co/teatro-de-la-imaginacion/cuento-contigo/marisol-y-tiburon">Aquí</a></li>
+					<li>Camusi Camusi Juegos <a href="http://www.camusicamusi.com/#juegos">Aquí</a></li>
+				</ul>
+			</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		  </div>
+		</div>
+
+	  </div>
+	</div>
+
+	<!-- Modal Cuentos-->
+	<div id="modal_cuentos" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Cuentos</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>
+				<ul>
+					<li>Teatro de la imaginación <a href="http://maguare.gov.co/teatro-de-la-imaginacion/">Aquí</a></li>
+					<li>Leer es mi cuento <a href="http://maguare.gov.co/leeresmicuento/">Aquí</a></li>
+					<li>Cuentos de la Fundación Rafael Pombo <a href="http://www.fundacionrafaelpombo.org/2012/index.php/es/fundacion-rafael-pombo--inicio">Aquí</a></li>
+					<li>Paka Paka <a href="http://186.113.12.182/catalogo//interna_coleccion.php?cl=57863">Aquí</a></li>
+				</ul>
+			</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		  </div>
+		</div>
+
+	  </div>
+	</div>
+
+
+	<script>
+		var container = $("#container_buttons")
+		var image =  $("#image_buttons")
+		var width = container.width();
+		var height = container.height();
+		//Música, Videos, Creaciones artísticas, Juegos, Cuentos.
+		//Música
+		var newdiv = $("<button class='btn' data-toggle='modal' data-target='#modal_musica'>Música</button>")
+		newdiv.css("position","absolute")
+		newdiv.css("z-index",5)
+		newdiv.css("top","35%")
+		newdiv.css("left","15%")
+		container.append(newdiv)
+		//Videos
+		var newdiv = $("<button class='btn' data-toggle='modal' data-target='#modal_videos'>Videos</button>")
+		newdiv.css("position","absolute")
+		newdiv.css("z-index",5)
+		newdiv.css("top","10%")
+		newdiv.css("left","25%")
+		container.append(newdiv)
+		//Creaciones artísticas
+		var newdiv = $("<button class='btn' data-toggle='modal' data-target='#modal_creaciones'>Creaciones artísticas</button>")
+		newdiv.css("position","absolute")
+		newdiv.css("z-index",5)
+		newdiv.css("top","80%")
+		newdiv.css("left","30%")
+		container.append(newdiv)
+		//Juegos
+		var newdiv = $("<button class='btn' data-toggle='modal' data-target='#modal_juegos'>Juegos</button>")
+		newdiv.css("position","absolute")
+		newdiv.css("z-index",5)
+		newdiv.css("top","30%")
+		newdiv.css("left","70%")
+		container.append(newdiv)
+		//Cuentos
+		var newdiv = $("<button class='btn' data-toggle='modal' data-target='#modal_cuentos'>Cuentos</button>")
+		newdiv.css("position","absolute")
+		newdiv.css("z-index",5)
+		newdiv.css("top","80%")
+		newdiv.css("left","70%")
+		container.append(newdiv)
+	</script>
+</div>
