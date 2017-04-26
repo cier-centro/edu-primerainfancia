@@ -14,7 +14,11 @@
 }
 
 .col-md-8.bg-white .panel-group {
-	margin: 15px 0;
+	margin: 2px 0;
+}
+
+.col-md-8.bg-white .panel-group .panel+.panel {
+	margin-top: 1px;
 }
 
 .col-md-8.bg-white .panel-title a {
