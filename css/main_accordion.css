@@ -41,3 +41,70 @@
 .col-md-8.bg-white .panel-title a.collapsed {
 	background: #5cd5c2 !important;
 }
+
+.modal-dialog .modal-body {
+	padding: 15px 24px;
+}
+
+.modal-dialog .modal-content {
+	background: #fbfbfb;
+}
+
+.modal-dialog .modal-content .modal-body .list-group li {
+	background: transparent url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/img-bullet.png') no-repeat 8px 15px / auto;
+	border: none;
+	padding: 10px 15px 10px 25px;
+}
+
+.modal-dialog .modal-header {
+	border: none;
+}
+
+.modal-dialog .modal-header .close {
+	background: #5bd6c1;
+	opacity: 0.8;
+	border-radius: 50%;
+	font-size: 35px;
+	height: 30px;
+	width: 30px;
+	line-height: 0;
+	padding: 0px 0 8px;
+	text-align: center;
+	font-weight: 500;
+	color: white;
+}
+
+.modal-dialog .modal-header .close:hover {
+	background: #317f72 !important;
+}
+
+.modal-dialog .modal-header h4 {
+	color: #4c4c4c;
+	margin: 0;
+	text-transform: none;
+	font-size: 30px;
+	border-bottom: 1px solid #4c4c4c;
+	display: inline-block;
+}
+
+.modal-dialog .table tbody {
+	border: 1px solid #666;
+}
+
+.modal-dialog .table tr,
+.modal-dialog .table th,
+.modal-dialog .table td {
+	border: none;
+	background: #e3e3e3 !important;
+}
+
+.modal-dialog .table tr th:first-child,
+.modal-dialog .table tr td:first-child {
+	border-right: 1px solid #666;
+}
+
+.modal-dialog .table tr th {
+	color: #4c4c4c;
+	font-size: 16px;
+	font-weight: bolder !important;
+}
