@@ -1,0 +1,129 @@
+<div id="container_buttons" >
+
+    <!-- Modal musica-->
+    <div id="modal_musica" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Música</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Caja de música <a href="http://maguare.gov.co/caja-de-musica/">IR A ENLACE</a></li>
+                        <li>Palabras al aire <a href="http://maguare.gov.co/palabras-al-aire/">IR A ENLACE</a></li>
+                        <li>Música Libre <a href="http://www.musicalibre.com.co/">IR A ENLACE</a></li>
+                        <li>Camusi Camusi <a href="http://www.camusicamusi.com/#Home">IR A ENLACE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal videos-->
+    <div id="modal_videos" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Videos</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Casa del árbol  <a href="http://maguare.gov.co/mi-casa-en-el-arbol/">IR A ENLACE</a></li>
+                        <li>Dinopaka <a href="http://186.113.12.182/catalogo//interna_recurso.php?nt=64261">IR A ENLACE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Creaciones artísticas-->
+    <div id="modal_creaciones" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Creaciones artísticas</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Pinta con colores <a href="http://maguare.gov.co/mi-casa-en-el-arbol/pinta-pinta/crea-con-colores">IR A ENLACE</a></li>
+                        <li>Pakapaka Tonki <a href="http://186.113.12.182/catalogo//interna_coleccion.php?cl=53961">IR A ENLACE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Juegos-->
+    <div id="modal_juegos" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Juegos</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Cuento contigo <a href="http://maguare.gov.co/teatro-de-la-imaginacion/cuento-contigo/marisol-y-tiburon">IR A ENLACE</a></li>
+                        <li>Camusi Camusi Juegos <a href="http://www.camusicamusi.com/#juegos">IR A ENLACE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Cuentos-->
+    <div id="modal_cuentos" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Cuentos</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Teatro de la imaginación <a href="http://maguare.gov.co/teatro-de-la-imaginacion/">IR A ENLACE</a></li>
+                        <li>Leer es mi cuento <a href="http://maguare.gov.co/leeresmicuento/">IR A ENLACE</a></li>
+                        <li>Cuentos de la Fundación Rafael Pombo <a href="http://www.fundacionrafaelpombo.org/2012/index.php/es/fundacion-rafael-pombo--inicio">IR A ENLACE</a></li>
+                        <li>Paka Paka <a href="http://186.113.12.182/catalogo//interna_coleccion.php?cl=57863">IR A ENLACE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="buttons-container" class="col-xs-12 col-sm-10 col-sm-offset-1">
+
+    </div>
+
+    <script>
+        var container = $("#buttons-container")
+        var image =  $("#image_buttons")
+        var width = container.width();
+        var height = container.height();
+        //Música, Videos, Creaciones artísticas, Juegos, Cuentos.
+        //Música
+        var newdiv = $("<div class='button-container col-xs-12 col-sm-4'><button class='btn' data-toggle='modal' data-target='#modal_videos'><span></span><label>Videos</label></button></div>")
+        container.append(newdiv)
+        //Videos
+        var newdiv = $("<div class='button-container col-xs-12 col-sm-8'><button class='btn' data-toggle='modal' data-target='#modal_juegos'><span></span><label>Juegos</label></button></div>")
+        container.append(newdiv)
+        //Creaciones artísticas
+        var newdiv = $("<div class='button-container col-xs-12 col-sm-4'><button class='btn' data-toggle='modal' data-target='#modal_cuentos'><span></span><label>Cuentos</label></button></div>")
+        container.append(newdiv)
+        //Juegos
+        var newdiv = $("<div class='button-container col-xs-12 col-sm-4'><button class='btn' data-toggle='modal' data-target='#modal_musica'><span></span><label>Música</label></button></div>")
+        container.append(newdiv)
+        //Cuentos
+        var newdiv = $("<div class='button-container col-xs-12 col-sm-4'><button class='btn' data-toggle='modal' data-target='#modal_creaciones'><span></span><label>Creaciones artísticas</label></button></div>")
+        container.append(newdiv)
+    </script>
+</div>

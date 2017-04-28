@@ -46,6 +46,10 @@
 	padding: 15px 24px;
 }
 
+.modal-dialog .modal-body p {
+	margin: 0 0 10px !important;
+}
+
 .modal-dialog .modal-content {
 	background: #fbfbfb;
 }
@@ -82,7 +86,7 @@
 	color: #4c4c4c;
 	margin: 0;
 	text-transform: none;
-	font-size: 30px;
+	font-size: 30px !important;
 	border-bottom: 1px solid #4c4c4c;
 	display: inline-block;
 }
@@ -107,4 +111,136 @@
 	color: #4c4c4c;
 	font-size: 16px;
 	font-weight: bolder !important;
+}
+
+#container_buttons .modal-body li {
+	background: #b3e6f9;
+	color: #087d6d;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 45px;
+	padding-left: 15px;
+}
+
+#container_buttons .modal-body li a {
+	float: right;
+	background: #5cd5c2;
+	color: white;
+	font-size: 16px;
+	width: 20%;
+	min-height: 55px;
+	min-width: 93px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	line-height: 1;
+}
+
+.modal-cont-boys-girls .views-row-1 {
+	margin-top: 100px;
+}
+
+.modal-cont-boys-girls .views-field-title {
+	margin: 15px;
+	display: flex;
+}
+
+.modal-cont-boys-girls .views-field-title span {
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.modal-cont-boys-girls #buttons-container .button-container button {
+	background: #f75a51;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	border-radius: 5px;
+	height: 45px;
+	width: 150px;
+	margin-top: 10px;
+	white-space: pre-wrap;
+	line-height: 1;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	padding: 0;
+	align-items: center;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container span {
+	background: url('http://52.37.84.217/edu-primerainfancia/img/spretesheet.png') no-repeat;
+	height: 35px;
+	width: 35px;
+	border-right: 1px solid white;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container:nth-child(1) span {
+	background-position: 1px 3px;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container:nth-child(2) span {
+	background-position: -31px -29px;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container:nth-child(3) span {
+	background-position: 0px -29px;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container:nth-child(4) span {
+	background-position: -33px 3px;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container:nth-child(5) span {
+	background-position: -65px 3px;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container label {
+	width: 110px;
+	margin: 0;
+	color: white;
+	cursor: pointer;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container:nth-child(1) button,
+.modal-cont-boys-girls #buttons-container .button-container:nth-child(5) button {
+	float: right;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container:nth-child(2),
+.modal-cont-boys-girls #buttons-container .button-container:nth-child(4) {
+	text-align: center;
+}
+
+.modal-cont-boys-girls #buttons-container .button-container button:hover {
+	background: #5cd5c2 !important;
+}
+@media (max-width: 768px) {
+	#container_buttons .modal-body li a {
+		min-height: 85px;
+	}
+
+	.modal-cont-boys-girls #buttons-container .button-container:nth-child(1) button,
+	.modal-cont-boys-girls #buttons-container .button-container:nth-child(5) button {
+		float: none;
+	}
+
+	.modal-cont-boys-girls #buttons-container .button-container:nth-child(2),
+	.modal-cont-boys-girls #buttons-container .button-container:nth-child(4) {
+		text-align: left;
+	}
+
+	.modal-cont-boys-girls #buttons-container .button-container span {
+		width: 40px;
+	}
+
+	.modal-cont-boys-girls #buttons-container .button-container button,
+	.modal-cont-boys-girls #buttons-container .button-container label {
+		width: 100%;
+	}
 }
