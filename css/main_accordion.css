@@ -113,7 +113,8 @@
 	font-weight: bolder !important;
 }
 
-#container_buttons .modal-body li {
+#container_buttons .modal-body li,
+.secretariate-content .link-container li{
 	background: #b3e6f9;
 	color: #087d6d;
 	text-transform: uppercase;
@@ -126,7 +127,8 @@
 	padding-left: 15px;
 }
 
-#container_buttons .modal-body li a {
+#container_buttons .modal-body li a,
+.secretariate-content .link-container li a {
 	float: right;
 	background: #5cd5c2;
 	color: white;
@@ -220,6 +222,8 @@
 .modal-cont-boys-girls #buttons-container .button-container button:hover {
 	background: #5cd5c2 !important;
 }
+
+
 @media (max-width: 768px) {
 	#container_buttons .modal-body li a {
 		min-height: 85px;
