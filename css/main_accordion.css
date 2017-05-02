@@ -223,6 +223,29 @@
 	background: #5cd5c2 !important;
 }
 
+.secretariate-content h2 {
+		margin: 30px 0 !important;
+}
+
+.site-primera-infancia .section_content .secretariate-content div > p {
+		margin: 0 0 15px !important;
+}
+
+.secretariate-content h3 {
+		margin: 15px 0 !important;
+}
+
+.secretariate-content .img-education-quality {
+		max-height: 300px;
+		margin: auto;
+}
+
+@media (min-width: 992px) {
+	.secretariate-content .img-text-center {
+			display: flex;
+			align-items: center;
+	}
+}
 
 @media (max-width: 768px) {
 	#container_buttons .modal-body li a {
