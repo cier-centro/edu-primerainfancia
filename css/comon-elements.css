@@ -10,7 +10,7 @@
 .site-primera-infancia .content h2{
     font-size: 20px;
     color: #502280;
-    margin: 0 15px 10px;
+    margin:15px 15px 10px;
     font-weight: 600;
 }
 .site-primera-infancia .content h3{
@@ -26,6 +26,10 @@
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
+}
+.site-primera-infancia .content.lead{
+  padding: 18px 12px;
+  font-size: 19px;
 }
 .site-primera-infancia .pad-container p{
     margin:5px 15px 20px !important;

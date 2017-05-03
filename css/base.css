@@ -118,7 +118,7 @@ h2.title {
   background: url("../img/ico-youtube.png") no-repeat center center / contain;
 }
 /* tip pedagogico, preescolar es una nota y documentos de referencia*/
-.site-primera-infancia .pedagogical-tip{
+.site-primera-infancia .pedagogical-tip, .site-primera-infancia .pedagogical-tip{
     background: url("../img/img-tip-teacher.png") no-repeat;
     background-color: #f9ede5;
     background-position: 90% 0px;
@@ -313,6 +313,8 @@ h2.title {
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul > li.active{
   border: 1px solid #b3b3b3;
   border-bottom: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list > ul {
   border: none;
