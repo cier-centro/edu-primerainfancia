@@ -6,22 +6,22 @@
     width: 100%;
 }
 
-.col-md-8.bg-white .panel-heading {
+.col-md-8.bg-white .panel-heading, .site-primera-infancia #accordion .panel-heading {
 	padding: 0;
 }
-.col-md-8.bg-white .panel-title {
+.col-md-8.bg-white .panel-title, .site-primera-infancia #accordion .panel-title {
 	margin-bottom: 0;
 }
 
-.col-md-8.bg-white .panel-group {
+.col-md-8.bg-white .panel-group, .site-primera-infancia #accordion .panel-group {
 	margin: 2px 0;
 }
 
-.col-md-8.bg-white .panel-group .panel+.panel {
+.col-md-8.bg-white .panel-group .panel+.panel, .site-primera-infancia #accordion .panel-group .panel+.panel{
 	margin-top: 1px;
 }
 
-.col-md-8.bg-white .panel-title a {
+.col-md-8.bg-white .panel-title a, .site-primera-infancia #accordion .panel-title a {
 	background: #5cd5c2;
     display: block;
     color: white;
@@ -30,19 +30,24 @@
 }
 
 .col-md-8.bg-white .panel-title a:hover,
-.col-md-8.bg-white .panel-title a.collapsed:hover {
+.col-md-8.bg-white .panel-title a.collapsed:hover,
+.site-primera-infancia #accordion .panel-title a:hover,
+.site-primera-infancia #accordion .panel-title a.collapsed:hover{
 	background: #5dada1 !important;
 }
 
-.col-md-8.bg-white .panel-title a[aria-expanded="true"] {
+.col-md-8.bg-white .panel-title a[aria-expanded="true"],
+.site-primera-infancia #accordion .panel-title a[aria-expanded="true"]{
 	background: #f78747 !important;
 }
 
-.col-md-8.bg-white .panel-title a.collapsed {
+.col-md-8.bg-white .panel-title a.collapsed,
+.site-primera-infancia #accordion .panel-title a.collapsed {
 	background: #5cd5c2 !important;
 }
 
-.modal-dialog .modal-body {
+.modal-dialog .modal-body,
+.site-primera-infancia #accordion .panel-title a.collapsed {
 	padding: 15px 24px;
 }
 
