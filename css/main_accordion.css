@@ -245,10 +245,34 @@
 		margin: auto;
 }
 
+.secretariate-content .panel-heading {
+		background: #16c0eb;
+		color: white;
+		font-size: 15px;
+		text-transform: uppercase;
+		font-weight: 600;
+}
+
+.secretariate-content .right-panel-buttons .link-container li {
+		background: #05ab99;
+		color: white;
+}
+
 @media (min-width: 992px) {
 	.secretariate-content .img-text-center {
 			display: flex;
 			align-items: center;
+	}
+}
+
+@media (min-width: 767px) {
+	.secretariate-content .right-panel-buttons .link-container li {
+		  font-size: 15px;
+			padding-left: 10px;
+	}
+
+	.secretariate-content .right-panel-buttons .link-container li a {
+			min-width: 65px
 	}
 }
 
