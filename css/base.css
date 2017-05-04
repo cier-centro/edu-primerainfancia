@@ -14,6 +14,7 @@ h2.title {
   -webkit-transform: translate3d(0,0,0);
   -moz-transform:translate3d(0,0,0);
   -ms-transform:translate3d(0,0,0);
+  margin-bottom: 25px;
 }
 .site-primera-infancia .main-menu > .pane-content > ul > li:first-child a{
   -webkit-border-radius: 20px 0 0 0;
@@ -64,7 +65,7 @@ h2.title {
 		background: url("../img/slider-btn-next.png") no-repeat center center / contain;
 }
 .site-primera-infancia #primera_infancia_home_slider{
-  margin: -95px 0 10px 0;
+  margin: -120px 0 10px 0;
   overflow: hidden;
 }
 .site-primera-infancia #primera_infancia_home_slider .views_slideshow_slide > div .views-field-body {
@@ -339,6 +340,6 @@ h2.title {
 .site-primera-infancia .modal-cont-boys-girls{
   background: #a6e2f4 url(../img/bg-ninos-ninas.png) no-repeat center bottom;
   position: relative;
-  top: -75px;
+  top: -100px;
   min-height: 650px;
 }
