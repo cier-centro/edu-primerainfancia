@@ -122,15 +122,13 @@
 
 	.site-primera-infancia .pedagogical-tip .views-field .field-content p,
 	.site-primera-infancia .pedagogical-tip .pedagogical-tip-title a {
-		/*width: calc(100% - 120px);
-		margin: 0 60px !important*/
 		width: 100%;
 		margin: 0 !important;
 		padding: 5px 60px;
 	}
 
 	.site-primera-infancia .pedagogical-tip {
-		height: auto; /*640px;*/
+		height: auto;
 		background: #05ab99;
 		padding: 0 0 20px;
 	}

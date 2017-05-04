@@ -1,27 +1,28 @@
-.col-md-8.bg-white {
+.site-primera-infancia .home-accordion {
 	padding-right: 0;
 }
 
-.col-md-8.bg-white h2 {
+.site-primera-infancia .home-accordion h2 {
     width: 100%;
 }
 
-.col-md-8.bg-white .panel-heading, .site-primera-infancia #accordion .panel-heading {
+.site-primera-infancia .home-accordion .panel-heading, .site-primera-infancia #accordion .panel-heading {
 	padding: 0;
 }
-.col-md-8.bg-white .panel-title, .site-primera-infancia #accordion .panel-title {
+
+.site-primera-infancia .home-accordion .panel-title, .site-primera-infancia #accordion .panel-title {
 	margin-bottom: 0;
 }
 
-.col-md-8.bg-white .panel-group, .site-primera-infancia #accordion .panel-group {
+.site-primera-infancia .home-accordion .panel-group, .site-primera-infancia #accordion .panel-group {
 	margin: 2px 0;
 }
 
-.col-md-8.bg-white .panel-group .panel+.panel, .site-primera-infancia #accordion .panel-group .panel+.panel{
+.site-primera-infancia .home-accordion .panel-group .panel+.panel, .site-primera-infancia #accordion .panel-group .panel+.panel{
 	margin-top: 1px;
 }
 
-.col-md-8.bg-white .panel-title a, .site-primera-infancia #accordion .panel-title a {
+.site-primera-infancia .home-accordion .panel-title a, .site-primera-infancia #accordion .panel-title a {
 	background: #5cd5c2;
     display: block;
     color: white;
@@ -29,47 +30,47 @@
     text-align: left;
 }
 
-.col-md-8.bg-white .panel-title a:hover,
-.col-md-8.bg-white .panel-title a.collapsed:hover,
+.site-primera-infancia .home-accordion .panel-title a:hover,
+.site-primera-infancia .home-accordion .panel-title a.collapsed:hover,
 .site-primera-infancia #accordion .panel-title a:hover,
 .site-primera-infancia #accordion .panel-title a.collapsed:hover{
 	background: #5dada1 !important;
 }
 
-.col-md-8.bg-white .panel-title a[aria-expanded="true"],
+.site-primera-infancia .home-accordion .panel-title a[aria-expanded="true"],
 .site-primera-infancia #accordion .panel-title a[aria-expanded="true"]{
 	background: #f78747 !important;
 }
 
-.col-md-8.bg-white .panel-title a.collapsed,
+.site-primera-infancia .home-accordion .panel-title a.collapsed,
 .site-primera-infancia #accordion .panel-title a.collapsed {
 	background: #5cd5c2 !important;
 }
 
-.modal-dialog .modal-body,
+.site-primera-infancia .modal-dialog .modal-body,
 .site-primera-infancia #accordion .panel-title a.collapsed {
 	padding: 15px 24px;
 }
 
-.modal-dialog .modal-body p {
+.site-primera-infancia .modal-dialog .modal-body p {
 	margin: 0 0 10px !important;
 }
 
-.modal-dialog .modal-content {
+.site-primera-infancia .modal-dialog .modal-content {
 	background: #fbfbfb;
 }
 
-.modal-dialog .modal-content .modal-body .list-group li {
+.site-primera-infancia .modal-dialog .modal-content .modal-body .list-group li {
 	background: transparent url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/img-bullet.png') no-repeat 8px 15px / auto;
 	border: none;
 	padding: 10px 15px 10px 25px;
 }
 
-.modal-dialog .modal-header {
+.site-primera-infancia .modal-dialog .modal-header {
 	border: none;
 }
 
-.modal-dialog .modal-header .close {
+.site-primera-infancia .modal-dialog .modal-header .close {
 	background: #5bd6c1;
 	opacity: 0.8;
 	border-radius: 50%;
@@ -83,11 +84,11 @@
 	color: white;
 }
 
-.modal-dialog .modal-header .close:hover {
+.site-primera-infancia .modal-dialog .modal-header .close:hover {
 	background: #317f72 !important;
 }
 
-.modal-dialog .modal-header h4 {
+.site-primera-infancia .modal-dialog .modal-header h4 {
 	color: #4c4c4c;
 	margin: 0;
 	text-transform: none;
@@ -96,30 +97,30 @@
 	display: inline-block;
 }
 
-.modal-dialog .table tbody {
+.site-primera-infancia .modal-dialog .table tbody {
 	border: 1px solid #666;
 }
 
-.modal-dialog .table tr,
-.modal-dialog .table th,
-.modal-dialog .table td {
+.site-primera-infancia .modal-dialog .table tr,
+.site-primera-infancia .modal-dialog .table th,
+.site-primera-infancia .modal-dialog .table td {
 	border: none;
 	background: #e3e3e3 !important;
 }
 
-.modal-dialog .table tr th:first-child,
-.modal-dialog .table tr td:first-child {
+.site-primera-infancia .modal-dialog .table tr th:first-child,
+.site-primera-infancia .modal-dialog .table tr td:first-child {
 	border-right: 1px solid #666;
 }
 
-.modal-dialog .table tr th {
+.site-primera-infancia .modal-dialog .table tr th {
 	color: #4c4c4c;
 	font-size: 16px;
 	font-weight: bolder !important;
 }
 
-#container_buttons .modal-body li,
-.secretariate-content .link-container li{
+.site-primera-infancia #container_buttons .modal-body li,
+.site-primera-infancia .secretariate-content .link-container li{
 	background: #b3e6f9;
 	color: #087d6d;
 	text-transform: uppercase;
@@ -132,8 +133,8 @@
 	padding-left: 15px;
 }
 
-#container_buttons .modal-body li a,
-.secretariate-content .link-container li a {
+.site-primera-infancia #container_buttons .modal-body li a,
+.site-primera-infancia .secretariate-content .link-container li a {
 	float: right;
 	background: #5cd5c2;
 	color: white;
@@ -147,23 +148,23 @@
 	line-height: 1;
 }
 
-.modal-cont-boys-girls .views-row-1 {
+.site-primera-infancia .modal-cont-boys-girls .views-row-1 {
 	margin-top: 100px;
 }
 
-.modal-cont-boys-girls .views-field-title {
+.site-primera-infancia .modal-cont-boys-girls .views-field-title {
 	margin: 15px;
 	display: flex;
 }
 
-.modal-cont-boys-girls .views-field-title span {
+.site-primera-infancia .modal-cont-boys-girls .views-field-title span {
 	padding: 15px;
 	text-align: center;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.5);
 }
 
-.modal-cont-boys-girls #buttons-container .button-container button {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container button {
 	background: #f75a51;
 	color: white;
 	text-transform: uppercase;
@@ -180,55 +181,55 @@
 	align-items: center;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container span {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container span {
 	background: url('http://52.37.84.217/edu-primerainfancia/img/spretesheet.png') no-repeat;
 	height: 35px;
 	width: 35px;
 	border-right: 1px solid white;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container:nth-child(1) span {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(1) span {
 	background-position: 1px 3px;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container:nth-child(2) span {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(2) span {
 	background-position: -31px -29px;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container:nth-child(3) span {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(3) span {
 	background-position: 0px -29px;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container:nth-child(4) span {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(4) span {
 	background-position: -33px 3px;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container:nth-child(5) span {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(5) span {
 	background-position: -65px 3px;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container label {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container label {
 	width: 110px;
 	margin: 0;
 	color: white;
 	cursor: pointer;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container:nth-child(1) button,
-.modal-cont-boys-girls #buttons-container .button-container:nth-child(5) button {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(1) button,
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(5) button {
 	float: right;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container:nth-child(2),
-.modal-cont-boys-girls #buttons-container .button-container:nth-child(4) {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(2),
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(4) {
 	text-align: center;
 }
 
-.modal-cont-boys-girls #buttons-container .button-container button:hover {
+.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container button:hover {
 	background: #5cd5c2 !important;
 }
 
-.secretariate-content h2 {
+.site-primera-infancia .secretariate-content h2 {
 		margin: 30px 0 !important;
 }
 
@@ -236,16 +237,16 @@
 		margin: 0 0 15px !important;
 }
 
-.secretariate-content h3 {
+.site-primera-infancia .secretariate-content h3 {
 		margin: 15px 0 !important;
 }
 
-.secretariate-content .img-education-quality {
+.site-primera-infancia .secretariate-content .img-education-quality {
 		max-height: 300px;
 		margin: auto;
 }
 
-.secretariate-content .panel-heading {
+.site-primera-infancia .secretariate-content .panel-heading {
 		background: #16c0eb;
 		color: white;
 		font-size: 15px;
@@ -253,50 +254,50 @@
 		font-weight: 600;
 }
 
-.secretariate-content .right-panel-buttons .link-container li {
+.site-primera-infancia .secretariate-content .right-panel-buttons .link-container li {
 		background: #05ab99;
 		color: white;
 }
 
 @media (min-width: 992px) {
-	.secretariate-content .img-text-center {
+	.site-primera-infancia .secretariate-content .img-text-center {
 			display: flex;
 			align-items: center;
 	}
 }
 
 @media (min-width: 767px) {
-	.secretariate-content .right-panel-buttons .link-container li {
+	.site-primera-infancia .secretariate-content .right-panel-buttons .link-container li {
 		  font-size: 15px;
 			padding-left: 10px;
 	}
 
-	.secretariate-content .right-panel-buttons .link-container li a {
+	.site-primera-infancia .secretariate-content .right-panel-buttons .link-container li a {
 			min-width: 65px
 	}
 }
 
 @media (max-width: 768px) {
-	#container_buttons .modal-body li a {
+	.site-primera-infancia #container_buttons .modal-body li a {
 		min-height: 85px;
 	}
 
-	.modal-cont-boys-girls #buttons-container .button-container:nth-child(1) button,
-	.modal-cont-boys-girls #buttons-container .button-container:nth-child(5) button {
+	.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(1) button,
+	.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(5) button {
 		float: none;
 	}
 
-	.modal-cont-boys-girls #buttons-container .button-container:nth-child(2),
-	.modal-cont-boys-girls #buttons-container .button-container:nth-child(4) {
+	.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(2),
+	.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container:nth-child(4) {
 		text-align: left;
 	}
 
-	.modal-cont-boys-girls #buttons-container .button-container span {
+	.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container span {
 		width: 40px;
 	}
 
-	.modal-cont-boys-girls #buttons-container .button-container button,
-	.modal-cont-boys-girls #buttons-container .button-container label {
+	.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container button,
+	.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container label {
 		width: 100%;
 	}
 }
