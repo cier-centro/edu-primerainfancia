@@ -66,6 +66,10 @@
 	padding: 10px 15px 10px 25px;
 }
 
+.site-primera-infancia .modal-dialog .modal-content .modal-body ol li {
+	list-style: decimal;
+}
+
 .site-primera-infancia .modal-dialog .modal-header {
 	border: none;
 }
@@ -120,7 +124,8 @@
 }
 
 .site-primera-infancia #container_buttons .modal-body li,
-.site-primera-infancia .secretariate-content .link-container li{
+.site-primera-infancia .secretariate-content .link-container li,
+.site-primera-infancia .teachers-content .link-container li {
 	background: #b3e6f9;
 	color: #087d6d;
 	text-transform: uppercase;
@@ -134,7 +139,8 @@
 }
 
 .site-primera-infancia #container_buttons .modal-body li a,
-.site-primera-infancia .secretariate-content .link-container li a {
+.site-primera-infancia .secretariate-content .link-container li a,
+.site-primera-infancia .teachers-content .link-container li a {
 	float: right;
 	background: #5cd5c2;
 	color: white;
