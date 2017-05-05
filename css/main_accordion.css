@@ -272,6 +272,35 @@
 		color: white;
 }
 
+.site-primera-infancia .teachers-content .left-panel .btn-info {
+		width: 110px;
+		height: 125px;
+		border: none;
+		white-space: pre-wrap;
+		font-size: 12px;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div > button {
+		background: url('http://52.37.84.217/edu-primerainfancia/img/bg-hetagono-1.png') no-repeat center / auto 100%;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div:nth-child(even) > button:nth-child(1) {
+	  margin-left: 40px;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div {
+    display: flex;
+    justify-content: center;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div > button:hover {
+		background: url('http://52.37.84.217/edu-primerainfancia/img/bg-hetagono-2.png') no-repeat center / auto 100%;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div > button:nth-child(3) {
+		margin-left: 9px
+}
+
 @media (min-width: 992px) {
 	.site-primera-infancia .secretariate-content .img-text-center {
 			display: flex;
