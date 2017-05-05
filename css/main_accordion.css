@@ -252,12 +252,18 @@
 		margin: auto;
 }
 
-.site-primera-infancia .secretariate-content .panel-heading {
+.site-primera-infancia .secretariate-content .panel-heading,
+.site-primera-infancia .teachers-content .panel-heading {
 		background: #16c0eb;
 		color: white;
 		font-size: 15px;
 		text-transform: uppercase;
 		font-weight: 600;
+}
+
+.site-primera-infancia .teachers-content .right-panel .panel-heading {
+		background: #B2E6F9;
+		color: #656565;
 }
 
 .site-primera-infancia .secretariate-content .right-panel-buttons .link-container li {
