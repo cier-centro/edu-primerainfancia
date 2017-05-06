@@ -252,6 +252,10 @@
 		margin: auto;
 }
 
+.site-primera-infancia .teachers-content .row:nth-child(2) > div > div > .panel-body {
+		background: #F9EDE5;
+}
+
 .site-primera-infancia .secretariate-content .panel-heading,
 .site-primera-infancia .teachers-content .panel-heading,
 .site-primera-infancia .panel-heading {
@@ -270,6 +274,79 @@
 .site-primera-infancia .secretariate-content .right-panel-buttons .link-container li {
 		background: #05ab99;
 		color: white;
+}
+
+.site-primera-infancia .teachers-content .left-panel .btn-info {
+		width: 110px;
+		height: 125px;
+		border: none;
+		white-space: pre-wrap;
+		font-size: 12px;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div > button {
+		background: url('http://52.37.84.217/edu-primerainfancia/img/bg-hetagono-1.png') no-repeat center / auto 100%;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div:nth-child(even) > button:nth-child(1) {
+	  margin-left: 60px;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div > button:hover {
+		background: url('http://52.37.84.217/edu-primerainfancia/img/bg-hetagono-2.png') no-repeat center / auto 100%;
+}
+
+.site-primera-infancia .teachers-content .left-panel > div > button:nth-child(3) {
+		margin-left: 9px
+}
+
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(1) > div > div,
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(2) > div > div,
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(3) > div > div {
+    padding: 0;
+		display: flex;
+		justify-content: center;
+}
+
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(1) > div > div > button,
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(2) > div > div > button,
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(3) > div > div > button {
+		width: 100px;
+		height: 100px;
+		white-space: normal;
+		font-size: 12px;
+		border-radius: 50%;
+		margin: 3px;
+		border: none;
+}
+
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(1) > div > div > button {
+		background: #5BD6C1;
+}
+
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(2) > div > div > button {
+		background: #04AA98;
+}
+
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(3) > div > div > button {
+		background: #087C6B;
+}
+
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(1) > div > div > button:hover {
+		background: #469e8f;
+}
+
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(2) > div > div > button:hover {
+		background: #0a7b6f;
+}
+
+.site-primera-infancia .teachers-content .right-panel > div:nth-child(3) > div > div > button:hover {
+		background: #07594B;
 }
 
 @media (min-width: 992px) {

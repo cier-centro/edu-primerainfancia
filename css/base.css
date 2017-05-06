@@ -281,10 +281,6 @@ h2.title {
   margin:10px 0;
   height: 88px;
 }
-.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents a {
-  display:inline-block;
-  width: 30%;
-}
 .site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .boddy-doc{
   width: 57%;
   display:inline-block;
@@ -296,10 +292,15 @@ h2.title {
   margin: 5px!important;
 }
 .site-primera-infancia .preschool-home-content .bg-white.tecnical-documents .dwd-icon{
-  width: 10%;
-  display:inline-block;
-  background: #5bd6c1 url("../img/ico-dwd-pdf.png") no-repeat center center / contain;
+  width: 22%;
+  display: flex;
+  background: #5bd6c1 center / contain;
   height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-weight: 500;
 }
 .site-primera-infancia .tabs-childrens .pane-content .item-list{
   margin-top: 20px;
