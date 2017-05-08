@@ -53,11 +53,13 @@
 }
 
 .site-primera-infancia .content #accordion h3{
-	margin-top: 0px;
+	margin: 8px 0px 0px;
 	background: #16c0eb;
 	color: #ffffff;
-	padding: 5px;
+	padding: 8px;
 	font-family: Helvetica,Arial,sans-serif;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 }
 .site-primera-infancia .content #accordion a.btn.btn-danger.text-right{
 	float: right;
@@ -74,7 +76,9 @@
 	font-size: 16px;
 	margin: 5px 20px 15px!important;
 }
-
+.site-primera-infancia .content #accordion ol li{
+	list-style: initial;
+}
 .site-primera-infancia .modal-dialog .modal-body p {
 	margin: 0 0 10px !important;
 }
