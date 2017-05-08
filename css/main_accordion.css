@@ -32,12 +32,22 @@
 }
 .site-primera-infancia .home-accordion .panel-title a, .site-primera-infancia #accordion .panel-title a:hover{
 	text-decoration: none;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }
 .site-primera-infancia .home-accordion .panel-title a:hover,
 .site-primera-infancia .home-accordion .panel-title a.collapsed:hover,
 .site-primera-infancia #accordion .panel-title a:hover,
 .site-primera-infancia #accordion .panel-title a.collapsed:hover{
 	background: #5dada1 !important;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }
 
 .site-primera-infancia .home-accordion .panel-title a[aria-expanded="true"],
@@ -74,6 +84,11 @@
 }
 .site-primera-infancia .content #accordion a.btn.btn-danger.text-right:hover{
 	background-color: #ef4343;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }
 .site-primera-infancia .content #accordion p.lead{
 	font-size: 16px;
@@ -120,6 +135,11 @@
 
 .site-primera-infancia .modal-dialog .modal-header .close:hover {
 	background: #317f72 !important;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }
 
 .site-primera-infancia .modal-dialog .modal-header h4 {
@@ -187,6 +207,12 @@
 .site-primera-infancia .secretariate-content .link-container li a:hover,
 .site-primera-infancia .teachers-content .link-container li a:hover {
 	text-decoration: none;
+	background-color: #3bb9a5;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }
 
 .site-primera-infancia .modal-cont-boys-girls .views-row-1 {
@@ -375,14 +401,29 @@
 
 .site-primera-infancia .teachers-content .right-panel > div:nth-child(1) > div > div > button:hover {
 		background: #469e8f;
+		-webkit-transition: all 200ms ease-out;
+		-moz-transition: all 200ms ease-out;
+		-ms-transition: all 200ms ease-out;
+		-o-transition: all 200ms ease-out;
+		transition: all 200ms ease-out;
 }
 
 .site-primera-infancia .teachers-content .right-panel > div:nth-child(2) > div > div > button:hover {
 		background: #0a7b6f;
+		-webkit-transition: all 200ms ease-out;
+		-moz-transition: all 200ms ease-out;
+		-ms-transition: all 200ms ease-out;
+		-o-transition: all 200ms ease-out;
+		transition: all 200ms ease-out;
 }
 
 .site-primera-infancia .teachers-content .right-panel > div:nth-child(3) > div > div > button:hover {
 		background: #07594B;
+		-webkit-transition: all 200ms ease-out;
+		-moz-transition: all 200ms ease-out;
+		-ms-transition: all 200ms ease-out;
+		-o-transition: all 200ms ease-out;
+		transition: all 200ms ease-out;
 }
 
 @media (min-width: 992px) {
