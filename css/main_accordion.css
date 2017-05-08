@@ -174,7 +174,7 @@
 	float: right;
 	background: #5cd5c2;
 	color: white;
-	font-size: 16px;
+	font-size: 13px;
 	width: 20%;
 	min-height: 55px;
 	min-width: 93px;
@@ -182,6 +182,11 @@
 	display: flex;
 	justify-content: center;
 	line-height: 1;
+}
+.site-primera-infancia #container_buttons .modal-body li a:hover,
+.site-primera-infancia .secretariate-content .link-container li a:hover,
+.site-primera-infancia .teachers-content .link-container li a:hover {
+	text-decoration: none;
 }
 
 .site-primera-infancia .modal-cont-boys-girls .views-row-1 {
@@ -275,6 +280,7 @@
 
 .site-primera-infancia .secretariate-content h3 {
 		margin: 15px 0 !important;
+		font-family: Helvetica,Arial,sans-serif;
 }
 
 .site-primera-infancia .secretariate-content .img-education-quality {
