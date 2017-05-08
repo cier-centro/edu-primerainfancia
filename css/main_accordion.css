@@ -294,6 +294,11 @@
 
 .site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container button:hover {
 	background: #5cd5c2 !important;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }
 
 .site-primera-infancia .secretariate-content h2 {
