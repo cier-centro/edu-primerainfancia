@@ -52,6 +52,29 @@
 	padding: 15px 24px;
 }
 
+.site-primera-infancia .content #accordion h3{
+	margin-top: 0px;
+	background: #16c0eb;
+	color: #ffffff;
+	padding: 5px;
+	font-family: Helvetica,Arial,sans-serif;
+}
+.site-primera-infancia .content #accordion a.btn.btn-danger.text-right{
+	float: right;
+	margin: 10px;
+	background: #ff6e5f;
+	border-color: #ff6e5f;
+	font-size: 12px;
+	padding: 10px 20px;
+}
+.site-primera-infancia .content #accordion a.btn.btn-danger.text-right:hover{
+	background-color: #ef4343;
+}
+.site-primera-infancia .content #accordion p.lead{
+	font-size: 16px;
+	margin: 5px 20px 15px!important;
+}
+
 .site-primera-infancia .modal-dialog .modal-body p {
 	margin: 0 0 10px !important;
 }
