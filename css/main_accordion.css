@@ -23,13 +23,16 @@
 }
 
 .site-primera-infancia .home-accordion .panel-title a, .site-primera-infancia #accordion .panel-title a {
-	background: #5cd5c2;
+		background: #5cd5c2;
     display: block;
     color: white;
     padding: 10px 15px;
     text-align: left;
+		text-decoration: none;
 }
-
+.site-primera-infancia .home-accordion .panel-title a, .site-primera-infancia #accordion .panel-title a:hover{
+	text-decoration: none;
+}
 .site-primera-infancia .home-accordion .panel-title a:hover,
 .site-primera-infancia .home-accordion .panel-title a.collapsed:hover,
 .site-primera-infancia #accordion .panel-title a:hover,
