@@ -196,6 +196,7 @@
 	color: white;
 	font-size: 13px;
 	width: 20%;
+	height: 55px;
 	min-height: 55px;
 	min-width: 93px;
 	align-items: center;
@@ -203,6 +204,7 @@
 	justify-content: center;
 	line-height: 1;
 }
+
 .site-primera-infancia #container_buttons .modal-body li a:hover,
 .site-primera-infancia .secretariate-content .link-container li a:hover,
 .site-primera-infancia .teachers-content .link-container li a:hover {
@@ -213,6 +215,10 @@
 	-ms-transition: all 200ms ease-out;
 	-o-transition: all 200ms ease-out;
 	transition: all 200ms ease-out;
+}
+
+.site-primera-infancia .library-content p {
+	text-align: center;
 }
 
 .site-primera-infancia .modal-cont-boys-girls .views-row-1 {
@@ -453,6 +459,11 @@
 		left: 0;
 		width: 100%;
 		position: absolute;
+}
+
+.site-primera-infancia .family-side-menu .item-list li > *:first-child {
+    display: flex;
+    justify-content: center;
 }
 
 .site-primera-infancia .footer {
