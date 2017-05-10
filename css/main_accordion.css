@@ -445,7 +445,7 @@
 		position: relative;
     float: left;
 		width: 100%;
-		height: 220px;
+		height: 146px;
 }
 
 .site-primera-infancia .family-side-menu .item-list li > * {
@@ -493,6 +493,12 @@
 	}
 }
 
+@media (max-width: 991px) {
+	.site-primera-infancia .family-side-menu .views-field-title a {
+		margin: auto !important;
+	}
+}
+
 @media (min-width: 767px) {
 	.site-primera-infancia .secretariate-content .right-panel-buttons .link-container li {
 		  font-size: 15px;
@@ -526,5 +532,9 @@
 	.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container button,
 	.site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container label {
 		width: 100%;
+	}
+
+	.site-primera-infancia .family-side-menu .views-field-title a {
+		width: 100% !important
 	}
 }
