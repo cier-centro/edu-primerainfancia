@@ -175,7 +175,8 @@
 
 .site-primera-infancia #container_buttons .modal-body li,
 .site-primera-infancia .secretariate-content .link-container li,
-.site-primera-infancia .teachers-content .link-container li {
+.site-primera-infancia .teachers-content .link-container li,
+.site-primera-infancia .family-content .link-container li {
 	background: #b3e6f9;
 	color: #087d6d;
 	text-transform: uppercase;
@@ -190,7 +191,8 @@
 
 .site-primera-infancia #container_buttons .modal-body li a,
 .site-primera-infancia .secretariate-content .link-container li a,
-.site-primera-infancia .teachers-content .link-container li a {
+.site-primera-infancia .teachers-content .link-container li a,
+.site-primera-infancia .family-content .link-container li a {
 	float: right;
 	background: #5cd5c2;
 	color: white;
@@ -207,7 +209,8 @@
 
 .site-primera-infancia #container_buttons .modal-body li a:hover,
 .site-primera-infancia .secretariate-content .link-container li a:hover,
-.site-primera-infancia .teachers-content .link-container li a:hover {
+.site-primera-infancia .teachers-content .link-container li a:hover,
+.site-primera-infancia .family-content .link-container li a:hover {
 	text-decoration: none;
 	background-color: #3bb9a5;
 	-webkit-transition: all 200ms ease-out;
@@ -471,6 +474,7 @@
 		background: #f78747;
 		padding: 10px;
 		border-top-right-radius: 15px;
+		margin-top: 15px;
 }
 
 .site-primera-infancia .footer a {
