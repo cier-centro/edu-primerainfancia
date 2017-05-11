@@ -22,6 +22,10 @@
 }
 
 @media (max-width: 992px) {
+		.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents h3 {
+			width: 105% !important;
+		}
+
 		.site-primera-infancia .preschool-home-content .col-md-8.bg-white,
 		.site-primera-infancia .preschool-home-content .col-md-4.bg-white {
 			width: 100%;
