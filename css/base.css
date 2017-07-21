@@ -68,9 +68,12 @@ h2.title {
   margin: -120px 0 10px 0;
   overflow: hidden;
 }
+.site-primera-infancia #primera_infancia_home_slider .view {
+    position: relative;
+}
 .site-primera-infancia #primera_infancia_home_slider .views_slideshow_slide > div .views-field-body {
 		position: absolute;
-		top: 330px;
+    top: 76%;
 		width: 100%;
 		/*right: 12%;*/
 		background-color: rgba(5, 171, 153, 0.5);
