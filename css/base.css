@@ -165,9 +165,28 @@ h2.title {
 .site-primera-infancia .pedagogical-tip .views-field .field-content p, .site-primera-infancia .pedagogical-tip .pedagogical-tip-title a{
   padding:10px 20px 20px 30px;
   width: 70%;
-  background: #05ab99;
   color:#ffffff!important;
   margin-left: 60px!important;
+}
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:first-child .views-field .field-content p,
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:first-child .pedagogical-tip-title a {
+  background: #59afe2;
+}
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:nth-child(2) .views-field .field-content p,
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:nth-child(2) .pedagogical-tip-title a {
+  background: #da6205;
+}
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:nth-child(3) .views-field .field-content p,
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:nth-child(3) .pedagogical-tip-title a {
+  background: #05ab99;
+}
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:nth-child(4) .views-field .field-content p,
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:nth-child(4) .pedagogical-tip-title a {
+  background: #ff6e5f;
+}
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:nth-child(5) .views-field .field-content p,
+.site-primera-infancia .pedagogical-tip .views_slideshow_cycle_slide:nth-child(5) .pedagogical-tip-title a {
+  background: ##f78747;
 }
 .site-primera-infancia .pedagogical-tip .views-field.views-field-body{
   margin-top: -11px;
