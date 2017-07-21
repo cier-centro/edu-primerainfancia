@@ -21,7 +21,7 @@
 	font-size: 13px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 		.site-primera-infancia .preschool-home-content .bg-white.tecnical-documents h3 {
 			width: 105% !important;
 		}
@@ -46,8 +46,12 @@
 			margin: 0;
 		}
 }
-
-@media (max-width: 768px) {
+@media (min-width: 768px) (max-width: 992px){
+	.site-primera-infancia #primera_infancia_home_slider .views_slideshow_slide > div .views-field-body {
+		top: 76%;
+	}
+}
+@media (max-width: 767px) {
 	.section_container.no_left_sidebar .section_content {
 		width: 100% !important;
 	}
