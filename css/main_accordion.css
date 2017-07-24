@@ -511,15 +511,15 @@
 			display: flex;
 			align-items: center;
 	}
-
-	.site-primera-infancia .family-side-menu .item-list li {
-		height: 150px;
-	}
 }
 
 @media (max-width: 991px) {
 	.site-primera-infancia .family-side-menu .views-field-title a {
 		margin: auto !important;
+	}
+	
+	.site-primera-infancia .family-side-menu .item-list li {
+		height: 150px;
 	}
 }
 
