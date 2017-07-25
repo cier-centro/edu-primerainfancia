@@ -342,6 +342,11 @@
 		font-weight: 600;
 }
 
+.site-primera-infancia .panel-body ul li {
+		list-style: initial;
+		margin: 5px 0 0 24px;
+}
+
 .site-primera-infancia .teachers-content .right-panel .panel-heading {
 		background: #B2E6F9;
 		color: #656565;
@@ -517,7 +522,7 @@
 	.site-primera-infancia .family-side-menu .views-field-title a {
 		margin: auto !important;
 	}
-	
+
 	.site-primera-infancia .family-side-menu .item-list li {
 		height: 150px;
 	}
