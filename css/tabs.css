@@ -7,7 +7,7 @@
     font-weight: 600; }
   .site-primera-infancia ul.nav.nav-tabs li.active a {
     background-color: white;
-    color: #EBA95E; }
+    color: #f78747; }
 .site-primera-infancia .tab-content {
   background-color: white; }
 .site-primera-infancia div .tab-pane.fade {
@@ -16,15 +16,16 @@
   margin: 20px 0; }
   .site-primera-infancia .quicktabs-wrapper .quicktabs-tabs {
     overflow: visible;
-    border: none;
-    height: auto; }
+    border: none !important;
+    height: auto !important;
+		display: flex; }
     .site-primera-infancia .quicktabs-wrapper .quicktabs-tabs li {
       padding: 10px 15px !important;
       border-bottom: 1px solid lightgray; }
       .site-primera-infancia .quicktabs-wrapper .quicktabs-tabs li a, .site-primera-infancia .quicktabs-wrapper .quicktabs-tabs li a:hover {
         color: #061236;
         font-weight: 600;
-        font-size: 14px; }
+        font-size: 15px; }
       .site-primera-infancia .quicktabs-wrapper .quicktabs-tabs li a:hover {
         text-decoration: underline; }
       .site-primera-infancia .quicktabs-wrapper .quicktabs-tabs li.active {
@@ -35,7 +36,7 @@
         position: relative !important; }
         .site-primera-infancia .quicktabs-wrapper .quicktabs-tabs li.active a {
           border: none;
-          color: #EBA95E;
+          color: #f78747;
           text-decoration: blink; }
   .site-primera-infancia .quicktabs-wrapper .quicktabs_main {
     border-top: 1px solid lightgray;
