@@ -128,6 +128,7 @@ h2.title {
     background: url("../img/img-tip-teacher.png") no-repeat;
     background-color: #f9ede5;
     background-position: 90% 0px;
+    background-size: contain;
 }
 /* slider tip pedagogico */
 .site-primera-infancia .pedagogical-tip {
