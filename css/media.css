@@ -51,6 +51,11 @@
 		top: 76%;
 	}
 }
+@media (min-width: 768px) {
+		.site-primera-infancia .main-menu .menu {
+				display: flex;
+		}
+}
 @media (max-width: 767px) {
 	.section_container.no_left_sidebar .section_content {
 		width: 100% !important;
@@ -60,7 +65,6 @@
 		width: auto;
 	}
 	.site-primera-infancia .main-menu > .pane-content > ul > li {
-		width: 100% !important;
 		height: 50px !important;
 	}
 
