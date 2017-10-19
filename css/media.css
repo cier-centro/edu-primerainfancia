@@ -55,6 +55,9 @@
 		.site-primera-infancia .main-menu .menu {
 				display: flex;
 		}
+		.site-primera-infancia .section_content p.lead{
+		  margin: 2px 7px !important;
+		}
 }
 @media (max-width: 767px) {
 	.section_container.no_left_sidebar .section_content {
@@ -148,5 +151,9 @@
 
 	.site-primera-infancia #views_slideshow_controls_text_primera_infancia-panel_pane_3 {
 		opacity: 0.8;
+	}
+
+	.site-primera-infancia .section_content p.lead{
+	  margin: 4px 7px !important;
 	}
 }
