@@ -105,7 +105,7 @@
 }
 
 .site-primera-infancia .modal-dialog .modal-content {
-	background: #fbfbfb url('http://52.37.84.217/edu-primerainfancia/img/img-main-bg.png');
+	background: #fbfbfb url('../img/img-main-bg.png');
 }
 
 .site-primera-infancia .modal-dialog .modal-content .modal-body .list-group li {
@@ -261,7 +261,7 @@
 }
 
 .site-primera-infancia .modal-cont-boys-girls #buttons-container .button-container span {
-	background: url('http://52.37.84.217/edu-primerainfancia/img/spretesheet.png') no-repeat;
+	background: url('../img/spretesheet.png') no-repeat;
 	height: 35px;
 	width: 35px;
 	border-right: 1px solid white;
@@ -369,7 +369,7 @@
 }
 
 .site-primera-infancia .teachers-content .left-panel > div > button {
-		background: url('http://52.37.84.217/edu-primerainfancia/img/bg-hetagono-1.png') no-repeat center / auto 100%;
+		background: url('../img/bg-hetagono-1.png') no-repeat center / auto 100%;
 }
 
 .site-primera-infancia .teachers-content .left-panel > div:nth-child(even) > button:nth-child(1) {
@@ -382,7 +382,7 @@
 }
 
 .site-primera-infancia .teachers-content .left-panel > div > button:hover {
-		background: url('http://52.37.84.217/edu-primerainfancia/img/bg-hetagono-2.png') no-repeat center / auto 100%;
+		background: url('../img/bg-hetagono-2.png') no-repeat center / auto 100%;
 }
 
 .site-primera-infancia .teachers-content .left-panel > div > button:nth-child(3) {
@@ -494,7 +494,7 @@
 		height: 30px;
     width: 30px;
     margin: 0 0 0 15px;
-		background: url('http://52.37.84.217/edu-primerainfancia/img/spritesheet-social.png');
+		background: url('../img/spritesheet-social.png');
 		border-radius: 5px;
 }
 
