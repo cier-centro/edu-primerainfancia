@@ -362,33 +362,34 @@
 		color: white;
 }
 
+.site-primera-infancia .teachers-content .left-panel {
+		float: right;
+		display: flex;
+    align-items: center;
+}
+
+.site-primera-infancia .teachers-content .left-panel >div:first-child {
+		margin-right: -20px;
+}
+
 .site-primera-infancia .teachers-content .left-panel .btn-info {
-		width: 110px;
-		height: 125px;
+		width: 150px;
+		height: 150px;
 		border: none;
 		white-space: pre-wrap;
 		font-size: 12px;
+		display: block;
+		margin: auto;
+		padding: 6px 30px;
+		outline: none !important;
 }
 
 .site-primera-infancia .teachers-content .left-panel > div > button {
 		background: url('../img/bg-hetagono-1.png') no-repeat center / auto 100%;
 }
 
-.site-primera-infancia .teachers-content .left-panel > div:nth-child(even) > button:nth-child(1) {
-	  margin-left: 60px;
-}
-
-.site-primera-infancia .teachers-content .left-panel > div {
-    display: flex;
-    justify-content: flex-start;
-}
-
 .site-primera-infancia .teachers-content .left-panel > div > button:hover {
 		background: url('../img/bg-hetagono-2.png') no-repeat center / auto 100%;
-}
-
-.site-primera-infancia .teachers-content .left-panel > div > button:nth-child(3) {
-		margin-left: 9px
 }
 
 .site-primera-infancia .teachers-content .right-panel > div:nth-child(1) > div > div,
