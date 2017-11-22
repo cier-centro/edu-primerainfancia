@@ -335,6 +335,8 @@
 
 .site-primera-infancia .teachers-content .row:nth-child(2) > div > div > .panel-body {
 		background: #F9EDE5;
+		display: flex;
+		align-items: center;
 }
 
 .site-primera-infancia .secretariate-content .panel-heading,
@@ -391,7 +393,11 @@
 .site-primera-infancia .teachers-content .left-panel > div > button:hover {
 		background: url('../img/bg-hetagono-2.png') no-repeat center / auto 100%;
 }
-
+.site-primera-infancia .teachers-content .right-panel {
+		background: url('../img/bg-hetagono-3.png') no-repeat center / auto 100%;
+		height: 400px;
+		width: 50%;
+}
 .site-primera-infancia .teachers-content .right-panel > div:nth-child(1) > div > div,
 .site-primera-infancia .teachers-content .right-panel > div:nth-child(2) > div > div,
 .site-primera-infancia .teachers-content .right-panel > div:nth-child(3) > div > div {
