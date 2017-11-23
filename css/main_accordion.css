@@ -335,6 +335,8 @@
 
 .site-primera-infancia .teachers-content .row:nth-child(2) > div > div > .panel-body {
 		background: #F9EDE5;
+	}
+.site-primera-infancia .teachers-content .row:nth-child(2) > div > div > .panel-body > div:first-child {
 		display: flex;
 		align-items: center;
 		justify-content: center;
