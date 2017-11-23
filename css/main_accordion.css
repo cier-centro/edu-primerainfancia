@@ -332,7 +332,24 @@
 		max-height: 300px;
 		margin: auto;
 }
-
+.site-primera-infancia .our-guides-lateral .views-row {
+		position: relative;
+		overflow: hidden;
+}
+.site-primera-infancia .our-guides-lateral .views-field-field-ruta-externa {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+}
+}
+.site-primera-infancia .our-guides-lateral .views-field-field-ruta-externa * {
+		height: 100%;
+		width: 100%;
+	  color: transparent;
+		display: block;
+}
 .site-primera-infancia .teachers-content .row:nth-child(2) > div > div > .panel-body {
 		background: #F9EDE5;
 	}
@@ -341,7 +358,9 @@
 		align-items: center;
 		justify-content: center;
 }
-
+.site-primera-infancia .teachers-content .preschool-image {
+		content: url('../img/img-preescolarnota.jpg')
+}
 .site-primera-infancia .secretariate-content .panel-heading,
 .site-primera-infancia .teachers-content .panel-heading,
 .site-primera-infancia .panel-heading {
