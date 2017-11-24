@@ -407,17 +407,17 @@
 		display: block;
 		outline: none;
 }
-.hexagon:before {
+.site-primera-infancia .hexagon:before {
 		border-top: solid 7.0711px;
 		border-right: solid 7.0711px;
 		left: -55px;
 }
-.hexagon:after {
+.site-primera-infancia .hexagon:after {
 		border-bottom: solid 7.0711px;
 		border-left: solid 7.0711px;
 		right: -55px;
 }
-.hexagon:before, .hexagon:after {
+.site-primera-infancia .hexagon:before, .hexagon:after {
 		content: "";
 		position: absolute;
 		z-index: 1;
@@ -430,39 +430,39 @@
 		border-color: inherit;
 		top: 17px;
 }
-.hexagon.purple {
+.site-primera-infancia .hexagon.purple {
 		border-color: #A569A0 !important;
 		background-color: #BB8EB7 !important;
 }
-.hexagon.red {
+.site-primera-infancia .hexagon.red {
 		border-color: #FF5F5F !important;
 		background-color: #FF9999 !important;
 }
-.hexagon.green {
+.site-primera-infancia .hexagon.green {
 		border-color: #45CDBB !important;
 		background-color: #A0E6DC !important;
 }
-.hexagon.blue {
+.site-primera-infancia .hexagon.blue {
 		border-color: #5AD2F2 !important;
 		background-color: #A4E6F8 !important;
 }
-.hexagon.orange {
+.site-primera-infancia .hexagon.orange {
 		border-color: #FFA962 !important;
 		background-color: #FFCDA4 !important;
 }
-.hexagon.purple:hover {
+.site-primera-infancia .hexagon.purple:hover {
 		background-color: #A569A0 !important;
 }
-.hexagon.red:hover {
+.site-primera-infancia .hexagon.red:hover {
 		background-color: #FF5F5F !important;
 }
-.hexagon.green:hover {
+.site-primera-infancia .hexagon.green:hover {
 		background-color: #45CDBB !important;
 }
-.hexagon.blue:hover {
+.site-primera-infancia .hexagon.blue:hover {
 		background-color: #5AD2F2 !important;
 }
-.hexagon.orange:hover {
+.site-primera-infancia .hexagon.orange:hover {
 		background-color: #FFA962 !important;
 }
 .site-primera-infancia .hexagon label {
