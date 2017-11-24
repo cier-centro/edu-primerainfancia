@@ -397,26 +397,53 @@
 .site-primera-infancia .teachers-content .left-panel >div:first-child {
 		margin-right: -20px;
 }
-
-.site-primera-infancia .teachers-content .left-panel .btn-info {
+.site-primera-infancia .hexagon {
+		position: relative;
 		width: 150px;
-		height: 150px;
-		border: none;
-		white-space: pre-wrap;
-		font-size: 12px;
-		display: block;
-		margin: auto;
-		padding: 6px 30px;
-		outline: none !important;
+		height: 86.60px;
+		background-color: #64C7CC;
+		margin: 43.30px 0;
+		border-left: solid 5px #333333;
+		border-right: solid 5px #333333;
+		transform: rotate(30deg);
+}
+.hexagon:before {
+    top: -55.033px;
+    border-top: solid 7.0711px #333333;
+    border-right: solid 7.0711px #333333;
+}
+.hexagon:after {
+    bottom: -55.033px;
+    border-bottom: solid 7.0711px #333333;
+    border-left: solid 7.0711px #333333;
+}
+.hexagon:before, .hexagon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 106.07px;
+    height: 106.07px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 16.9670px;
+}
+.site-primera-infancia .hexagon label {
+		transform: rotate(-30deg);
+		z-index: 2;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 }
 
-.site-primera-infancia .teachers-content .left-panel > div > button {
-		background: url('../img/bg-hetagono-1.png') no-repeat center / auto 100%;
-}
-
-.site-primera-infancia .teachers-content .left-panel > div > button:hover {
-		background: url('../img/bg-hetagono-2.png') no-repeat center / auto 100%;
-}
 .site-primera-infancia .teachers-content .right-panel {
 		background: url('../img/bg-hetagono-3.png') no-repeat center / 100%;
 		height: 400px;
