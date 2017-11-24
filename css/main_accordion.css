@@ -427,28 +427,28 @@
 		-ms-transform: scaleY(0.5774) rotate(-135deg);
 		transform: scalex(0.5774) rotate(-135deg);
 		background-color: inherit;
-		border-color: inherit;
+		border-color: inherit !important;
 		top: 17px;
 }
 .site-primera-infancia .hexagon.purple {
-		border-color: #A569A0 !important;
-		background-color: #BB8EB7 !important;
+		border-color: #A569A0;
+		background-color: #BB8EB7;
 }
 .site-primera-infancia .hexagon.red {
-		border-color: #FF5F5F !important;
-		background-color: #FF9999 !important;
+		border-color: #FF5F5F;
+		background-color: #FF9999;
 }
 .site-primera-infancia .hexagon.green {
-		border-color: #45CDBB !important;
-		background-color: #A0E6DC !important;
+		border-color: #45CDBB;
+		background-color: #A0E6DC;
 }
 .site-primera-infancia .hexagon.blue {
-		border-color: #5AD2F2 !important;
-		background-color: #A4E6F8 !important;
+		border-color: #5AD2F2;
+		background-color: #A4E6F8;
 }
 .site-primera-infancia .hexagon.orange {
-		border-color: #FFA962 !important;
-		background-color: #FFCDA4 !important;
+		border-color: #FFA962;
+		background-color: #FFCDA4;
 }
 .site-primera-infancia .hexagon.purple:hover {
 		background-color: #A569A0 !important;
