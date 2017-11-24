@@ -450,6 +450,21 @@
 		border-color: #FFA962 !important;
 		background-color: #FFCDA4 !important;
 }
+.hexagon.purple:hover {
+		background-color: #A569A0 !important;
+}
+.hexagon.red:hover {
+		background-color: #FF5F5F !important;
+}
+.hexagon.green:hover {
+		background-color: #45CDBB !important;
+}
+.hexagon.blue:hover {
+		background-color: #5AD2F2 !important;
+}
+.hexagon.orange:hover {
+		background-color: #FFA962 !important;
+}
 .site-primera-infancia .hexagon label {
 		z-index: 2;
 		position: absolute;
