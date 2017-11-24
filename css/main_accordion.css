@@ -401,21 +401,20 @@
 		position: relative;
 		width: 86.60px;
 		height: 150px;
-		background-color: #64C7CC;
 		margin-bottom: 20px;
-		border-top: solid 5px #333333;
-		border-bottom: solid 5px #333333;
+		border-top: solid 5px;
+		border-bottom: solid 5px;
 		display: block;
 		outline: none;
 }
 .hexagon:before {
-		border-top: solid 7.0711px #333333;
-		border-right: solid 7.0711px #333333;
+		border-top: solid 7.0711px;
+		border-right: solid 7.0711px;
 		left: -55px;
 }
 .hexagon:after {
-		border-bottom: solid 7.0711px #333333;
-		border-left: solid 7.0711px #333333;
+		border-bottom: solid 7.0711px;
+		border-left: solid 7.0711px;
 		right: -55px;
 }
 .hexagon:before, .hexagon:after {
@@ -428,7 +427,28 @@
 		-ms-transform: scaleY(0.5774) rotate(-135deg);
 		transform: scalex(0.5774) rotate(-135deg);
 		background-color: inherit;
+		border-color: inherit;
 		top: 17px;
+}
+.hexagon.purple {
+		border-color: #A569A0 !important;
+		background-color: #BB8EB7 !important;
+}
+.hexagon.red {
+		border-color: #FF5F5F !important;
+		background-color: #FF9999 !important;
+}
+.hexagon.green {
+		border-color: #45CDBB !important;
+		background-color: #A0E6DC !important;
+}
+.hexagon.blue {
+		border-color: #5AD2F2 !important;
+		background-color: #A4E6F8 !important;
+}
+.hexagon.orange {
+		border-color: #FFA962 !important;
+		background-color: #FFCDA4 !important;
 }
 .site-primera-infancia .hexagon label {
 		z-index: 2;
@@ -442,6 +462,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		cursor: pointer;
+		color: white;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .site-primera-infancia .teachers-content .right-panel {
