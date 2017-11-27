@@ -385,7 +385,7 @@
 }
 .site-primera-infancia .our-guides-lateral .views-field-title,
 .site-primera-infancia .teaching-excellence-lateral .views-field-title,
-.site-primera-infancia .virtual-comunity-lateral .views-field-title {
+.site-primera-infancia .virtual-comunity-lateral .pane-field-title {
 		width: 60%;
 		display: inline-flex;
 		align-items: center;
@@ -427,7 +427,7 @@
 		width: auto;
 }
 .site-primera-infancia .teachers-content .row:nth-child(2) > div > div > .panel-body {
-		background: #F9EDE5;
+		background: #f3fcfe;
 	}
 .site-primera-infancia .teachers-content .row:nth-child(2) > div > div > .panel-body > div:first-child {
 		display: flex;
