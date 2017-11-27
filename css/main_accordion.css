@@ -377,7 +377,24 @@
 		list-style: initial;
 		margin: 5px 0 0 24px;
 }
-
+.site-primera-infancia .teachers-content .knowledge-panel > .panel-heading {
+		background: #ff7300;
+}
+.site-primera-infancia .teachers-content .knowledge-panel .panel-group .panel-heading a {
+		background: #f7ab61;
+}
+.site-primera-infancia .teachers-content .transition-panel > .panel-heading {
+		background: #5cd5c2;
+}
+.site-primera-infancia .teachers-content .transition-panel .panel-group .panel-heading a {
+		background: #a0e6dc;
+}
+.site-primera-infancia .teachers-content .diversity-panel > .panel-heading {
+		background: #ff5f5f;
+}
+.site-primera-infancia .teachers-content .diversity-panel .panel-group .panel-heading a {
+		background: #ffa2a2;
+}
 .site-primera-infancia .teachers-content .right-panel .panel-heading {
 		background: #B2E6F9;
 		color: #656565;
