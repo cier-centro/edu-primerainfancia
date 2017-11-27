@@ -389,14 +389,23 @@
 		background: #bfd7a4;
     border-bottom: 3px solid #8bb85e;
 }
-.site-primera-infancia .our-guides-lateral .views-field-title * {
+.site-primera-infancia .our-guides-lateral .views-field-title *,
+.site-primera-infancia .teaching-excellence-lateral .views-field-title * {
 		color: white;
 		font-weight: 600;
 }
-.site-primera-infancia .our-guides-lateral .views-field-field-imagen-del-articulo-1 {
+.site-primera-infancia .our-guides-lateral .views-field-field-imagen-del-articulo-1,
+.site-primera-infancia .teaching-excellence-lateral .views-field-field-imagen-del-articulo-1 {
 		width: 40%;
 		display: inline-flex;
-		padding: 0 10px;
+		padding: 10px;
+		align-items: center;
+		justify-content: center;
+}
+.site-primera-infancia .our-guides-lateral .views-field-field-imagen-del-articulo-1 img,
+.site-primera-infancia .teaching-excellence-lateral .views-field-field-imagen-del-articulo-1 img {
+		max-height: 75px;
+		width: auto;
 }
 .site-primera-infancia .teachers-content .row:nth-child(2) > div > div > .panel-body {
 		background: #F9EDE5;
