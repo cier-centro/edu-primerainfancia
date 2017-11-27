@@ -381,19 +381,28 @@
 		background: #ff7300;
 }
 .site-primera-infancia .teachers-content .knowledge-panel .panel-group .panel-heading a {
-		background: #f7ab61;
+		background-color: #f7ab61;
+}
+.site-primera-infancia .teachers-content .knowledge-panel .home-accordion #accordion .panel-heading .panel-title a.collapsed {
+		background-color: #f7ab61 !important;
 }
 .site-primera-infancia .teachers-content .transition-panel > .panel-heading {
 		background: #5cd5c2;
 }
-.site-primera-infancia .teachers-content .transition-panel .panel-group .panel-heading a {
-		background: #a0e6dc;
+.site-primera-infancia .teachers-content .transition-panel .panel-group .panel-heading a{
+		background-color: #a0e6dc;
+}
+.site-primera-infancia .teachers-content .transition-panel .home-accordion #accordion2 .panel-heading .panel-title a.collapsed {
+		background-color: #a0e6dc !important;
 }
 .site-primera-infancia .teachers-content .diversity-panel > .panel-heading {
 		background: #ff5f5f;
 }
 .site-primera-infancia .teachers-content .diversity-panel .panel-group .panel-heading a {
-		background: #ffa2a2;
+		background-color: #ffa2a2;
+}
+.site-primera-infancia .teachers-content .diversity-panel .home-accordion #accordion3 .panel-heading .panel-title a.collapsed {
+		background-color: #ffa2a2 !important;
 }
 .site-primera-infancia .teachers-content .right-panel .panel-heading {
 		background: #B2E6F9;
