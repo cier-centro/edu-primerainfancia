@@ -381,7 +381,7 @@
 		background: #ff7300;
 }
 .site-primera-infancia .teachers-content .knowledge-panel .panel-group .panel-heading a {
-		background-color: #f7ab61;
+		background-color: #f7ab61 !important;
 }
 .site-primera-infancia .teachers-content .knowledge-panel .home-accordion #accordion .panel-heading .panel-title a.collapsed {
 		background-color: #f7ab61 !important;
