@@ -332,6 +332,10 @@
 		max-height: 300px;
 		margin: auto;
 }
+.site-primera-infancia .our-guides-lateral,
+.site-primera-infancia .teaching-excellence-lateral {
+		margin-bottom: 20px;
+}
 .site-primera-infancia .our-guides-lateral .panel-heading {
 		background: #5f549b;
 }
@@ -339,7 +343,8 @@
 		background: #8bb85e;
 }
 .site-primera-infancia .our-guides-lateral .views-row,
-.site-primera-infancia .teaching-excellence-lateral .views-row {
+.site-primera-infancia .teaching-excellence-lateral .views-row,
+.site-primera-infancia .virtual-comunity-lateral .views-row {
 		position: relative;
 		display: flex;
     align-items: stretch;
@@ -352,8 +357,12 @@
 .site-primera-infancia .teaching-excellence-lateral .views-row {
 		background: #8bb85e;
 }
+.site-primera-infancia .virtual-comunity-lateral .views-row {
+		background: #16c0eb;
+}
 .site-primera-infancia .our-guides-lateral .views-field-field-ruta-externa,
-.site-primera-infancia .teaching-excellence-lateral .views-field-field-ruta-externa {
+.site-primera-infancia .teaching-excellence-lateral .views-field-field-ruta-externa,
+.site-primera-infancia .virtual-comunity-lateral .views-field-field-ruta-externa {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -361,19 +370,22 @@
 		width: 100%;
 }
 .site-primera-infancia .our-guides-lateral .views-field-field-ruta-externa *,
-.site-primera-infancia .teaching-excellence-lateral .views-field-field-ruta-externa * {
+.site-primera-infancia .teaching-excellence-lateral .views-field-field-ruta-externa *,
+.site-primera-infancia .virtual-comunity-lateral .views-field-field-ruta-externa * {
 		height: 100%;
 		width: 100%;
 	  color: transparent;
 		display: block;
 }
 .site-primera-infancia .our-guides-lateral .view-content,
-.site-primera-infancia .teaching-excellence-lateral .view-content {
+.site-primera-infancia .teaching-excellence-lateral .view-content,
+.site-primera-infancia .virtual-comunity-lateral .view-content {
 		padding: 0 15px;
 		border: 1px solid lightgray;
 }
 .site-primera-infancia .our-guides-lateral .views-field-title,
-.site-primera-infancia .teaching-excellence-lateral .views-field-title {
+.site-primera-infancia .teaching-excellence-lateral .views-field-title,
+.site-primera-infancia .virtual-comunity-lateral .views-field-title {
 		width: 60%;
 		display: inline-flex;
 		align-items: center;
@@ -389,13 +401,19 @@
 		background: #bfd7a4;
     border-bottom: 3px solid #8bb85e;
 }
+.site-primera-infancia .virtual-comunity-lateral .views-field-title {
+		background: #a4e6f8;
+		border-bottom: 3px solid #16c0eb;
+}
 .site-primera-infancia .our-guides-lateral .views-field-title *,
-.site-primera-infancia .teaching-excellence-lateral .views-field-title * {
+.site-primera-infancia .teaching-excellence-lateral .views-field-title *,
+.site-primera-infancia .virtual-comunity-lateral .views-field-title * {
 		color: white;
 		font-weight: 600;
 }
 .site-primera-infancia .our-guides-lateral .views-field-field-imagen-del-articulo-1,
-.site-primera-infancia .teaching-excellence-lateral .views-field-field-imagen-del-articulo-1 {
+.site-primera-infancia .teaching-excellence-lateral .views-field-field-imagen-del-articulo-1,
+.site-primera-infancia .virtual-comunity-lateral .views-field-field-imagen-del-articulo-1 {
 		width: 40%;
 		display: inline-flex;
 		padding: 10px;
@@ -403,7 +421,8 @@
 		justify-content: center;
 }
 .site-primera-infancia .our-guides-lateral .views-field-field-imagen-del-articulo-1 img,
-.site-primera-infancia .teaching-excellence-lateral .views-field-field-imagen-del-articulo-1 img {
+.site-primera-infancia .teaching-excellence-lateral .views-field-field-imagen-del-articulo-1 img,
+.site-primera-infancia .virtual-comunity-lateral .views-field-field-imagen-del-articulo-1 img {
 		max-height: 75px;
 		width: auto;
 }
